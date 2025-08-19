@@ -1,0 +1,7 @@
+VERSION=3500400
+DESCRIPTION=SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+HOMEPAGE=https://sqlite.org/
+MIN_API=21
+DEPENDENCIES=
+LICENSE=Public Domain
+CONFLICTS=

@@ -1,0 +1,245 @@
+{
+    "packages": {
+        "payload_dumper": {
+            "version": "a442ab4",
+            "description": "Rust-based Payload Dumper",
+            "homepage": "https://github.com/rhythmcache/payload-dumper-rust",
+            "min_api": "21",
+            "dependencies": [],
+            "license": "MIT",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/arm64-v8a/payload_dumper.tar.zst",
+                    "sha256": "81847c10ba0ff373e3091ae5a9e070c60e76c9dcdeb5abd765fc11aa38a12884",
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/armeabi-v7a/payload_dumper.tar.zst",
+                    "sha256": "bf1798c77b5f719a7f6d733f4e9c96d6e7d090b3c4a34568292b26797cd6b50c",
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86/payload_dumper.tar.zst",
+                    "sha256": "9b027e636d080ca24aff622b6bfc9208b35a5f752ea899729210e8c3aa0c10d8",
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86_64/payload_dumper.tar.zst",
+                    "sha256": "d4810788aa320d4445e9c6223e28494a6e3a09b579e91e23c853acd7e0de7bea",
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                }
+            }
+        },
+        "xz": {
+            "version": "5.8.1",
+            "description": "XZ-Utils",
+            "homepage": "https://tukaani.org/xz/",
+            "min_api": "21",
+            "dependencies": [],
+            "license": "BSD Zero Clause License",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/arm64-v8a/xz.tar.zst",
+                    "sha256": "bd24e48461ee0058e42a738f761e5327255644010764708b7547363cb480b55e",
+                    "contents": [
+                        "bin/lzcat",
+                        "bin/lzcmp",
+                        "bin/lzdiff",
+                        "bin/lzegrep",
+                        "bin/lzfgrep",
+                        "bin/lzgrep",
+                        "bin/lzless",
+                        "bin/lzma",
+                        "bin/lzmadec",
+                        "bin/lzmainfo",
+                        "bin/lzmore",
+                        "bin/unlzma",
+                        "bin/unxz",
+                        "bin/xz",
+                        "bin/xzcat",
+                        "bin/xzcmp",
+                        "bin/xzdec",
+                        "bin/xzdiff",
+                        "bin/xzegrep",
+                        "bin/xzfgrep",
+                        "bin/xzgrep",
+                        "bin/xzless",
+                        "bin/xzmore"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/armeabi-v7a/xz.tar.zst",
+                    "sha256": "2f73a5b835296a184ec6f539f61ff0845aa57d0b541939cc40c12647c76e54f8",
+                    "contents": [
+                        "bin/lzcat",
+                        "bin/lzcmp",
+                        "bin/lzdiff",
+                        "bin/lzegrep",
+                        "bin/lzfgrep",
+                        "bin/lzgrep",
+                        "bin/lzless",
+                        "bin/lzma",
+                        "bin/lzmadec",
+                        "bin/lzmainfo",
+                        "bin/lzmore",
+                        "bin/unlzma",
+                        "bin/unxz",
+                        "bin/xz",
+                        "bin/xzcat",
+                        "bin/xzcmp",
+                        "bin/xzdec",
+                        "bin/xzdiff",
+                        "bin/xzegrep",
+                        "bin/xzfgrep",
+                        "bin/xzgrep",
+                        "bin/xzless",
+                        "bin/xzmore"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/x86/xz.tar.zst",
+                    "sha256": "95e4d1201ddf7b998b14da18608ae8c057dce4e15f20ff215cbc48a6e389bf9a",
+                    "contents": [
+                        "bin/lzcat",
+                        "bin/lzcmp",
+                        "bin/lzdiff",
+                        "bin/lzegrep",
+                        "bin/lzfgrep",
+                        "bin/lzgrep",
+                        "bin/lzless",
+                        "bin/lzma",
+                        "bin/lzmadec",
+                        "bin/lzmainfo",
+                        "bin/lzmore",
+                        "bin/unlzma",
+                        "bin/unxz",
+                        "bin/xz",
+                        "bin/xzcat",
+                        "bin/xzcmp",
+                        "bin/xzdec",
+                        "bin/xzdiff",
+                        "bin/xzegrep",
+                        "bin/xzfgrep",
+                        "bin/xzgrep",
+                        "bin/xzless",
+                        "bin/xzmore"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/x86_64/xz.tar.zst",
+                    "sha256": "83a459e6c66cef186fc8d60f92e163c5662e51dfb94cf29bfca46f5646b7ff84",
+                    "contents": [
+                        "bin/lzcat",
+                        "bin/lzcmp",
+                        "bin/lzdiff",
+                        "bin/lzegrep",
+                        "bin/lzfgrep",
+                        "bin/lzgrep",
+                        "bin/lzless",
+                        "bin/lzma",
+                        "bin/lzmadec",
+                        "bin/lzmainfo",
+                        "bin/lzmore",
+                        "bin/unlzma",
+                        "bin/unxz",
+                        "bin/xz",
+                        "bin/xzcat",
+                        "bin/xzcmp",
+                        "bin/xzdec",
+                        "bin/xzdiff",
+                        "bin/xzegrep",
+                        "bin/xzfgrep",
+                        "bin/xzgrep",
+                        "bin/xzless",
+                        "bin/xzmore"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/riscv64/xz.tar.zst",
+                    "sha256": "9a34daa1d087cedeb51da24362a0deb744d56d347918f4ade32f898d27284705",
+                    "contents": [
+                        "bin/lzcat",
+                        "bin/lzcmp",
+                        "bin/lzdiff",
+                        "bin/lzegrep",
+                        "bin/lzfgrep",
+                        "bin/lzgrep",
+                        "bin/lzless",
+                        "bin/lzma",
+                        "bin/lzmadec",
+                        "bin/lzmainfo",
+                        "bin/lzmore",
+                        "bin/unlzma",
+                        "bin/unxz",
+                        "bin/xz",
+                        "bin/xzcat",
+                        "bin/xzcmp",
+                        "bin/xzdec",
+                        "bin/xzdiff",
+                        "bin/xzegrep",
+                        "bin/xzfgrep",
+                        "bin/xzgrep",
+                        "bin/xzless",
+                        "bin/xzmore"
+                    ]
+                }
+            }
+        },
+        "openssl": {
+            "version": "3.5.2",
+            "description": "OpenSSL provides cryptographic functions and SSL/TLS for applications.",
+            "homepage": "https://www.openssl.org/",
+            "min_api": "",
+            "dependencies": [],
+            "license": " Apache-2.0 license",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/arm64-v8a/openssl.tar.zst",
+                    "sha256": "2d9688d606f802ea06deaf35e9c4882501d89155226360354982f6040658f28b",
+                    "contents": [
+                        "bin/openssl"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/armeabi-v7a/openssl.tar.zst",
+                    "sha256": "597279a5b0a7a385c48b128a64814126d945063df4c85f0bde873d6f4f788d1e",
+                    "contents": [
+                        "bin/openssl"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/x86/openssl.tar.zst",
+                    "sha256": "13d58dfa5c04d4b04e5fb76d4dfa92097e11cccbfab05921a75f622a3ed339b8",
+                    "contents": [
+                        "bin/openssl"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/x86_64/openssl.tar.zst",
+                    "sha256": "c1ba21f2a234922d15449e4968a54f6f633b189305d02563429481f8bba9f40c",
+                    "contents": [
+                        "bin/openssl"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/riscv64/openssl.tar.zst",
+                    "sha256": "c3b0c3042888a5695cd90a84074f45f78b22c8404ba6fa6f41a5cb20affdf35d",
+                    "contents": [
+                        "bin/openssl"
+                    ]
+                }
+            }
+        }
+    }
+}

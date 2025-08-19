@@ -1,0 +1,7 @@
+VERSION=5.8.1
+DESCRIPTION=XZ-Utils
+HOMEPAGE=https://tukaani.org/xz/
+MIN_API=21
+DEPENDENCIES=
+LICENSE=BSD Zero Clause License
+CONFLICTS=

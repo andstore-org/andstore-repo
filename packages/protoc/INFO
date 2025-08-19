@@ -1,0 +1,7 @@
+VERSION=32.0
+DESCRIPTION=Protocol Buffers - Google's data interchange format
+HOMEPAGE=https://github.com/protocolbuffers/protobuf
+MIN_API=21
+DEPENDENCIES=
+LICENSE=BSD 3-Clause License
+CONFLICTS=

@@ -1,0 +1,7 @@
+VERSION=a442ab4
+DESCRIPTION=Rust-based Payload Dumper
+HOMEPAGE=https://github.com/rhythmcache/payload-dumper-rust
+MIN_API=21
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=

@@ -1,0 +1,34 @@
+name: update json
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install zstandard
+
+      - name: Generate repo.json
+        run: python gen.py
+
+      - name: push
+        run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+           git add repo.json
+           git commit -m "Update repo.json [skip ci]" || echo "No changes to commit"
+           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+           git push

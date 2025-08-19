@@ -1,0 +1,7 @@
+VERSION=1.1.0
+DESCRIPTION=Brotli is a generic-purpose lossless compression algorithm
+HOMEPAGE=https://github.com/google/brotli
+MIN_API=21
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=
