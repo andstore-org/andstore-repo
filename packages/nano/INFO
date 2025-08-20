@@ -1,7 +1,7 @@
 VERSION=8.5
 DESCRIPTION=GNU nano is a small editor for on the terminal.
 HOMEPAGE=https://www.nano-editor.org/
-MIN_API=35
+MIN_API=28
 DEPENDENCIES=
 LICENSE=GPLv3
 CONFLICTS=
