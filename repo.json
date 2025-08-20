@@ -379,35 +379,35 @@
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/arm64-v8a/sqlite3.tar.zst",
-                    "sha256": "efcebb08e7d5816860999f663b881b68af381191a441a825be2247ee5fd7e565",
+                    "sha256": "5c26f77748abaa5be56d0286a7e015d462f2513e78e7c1d360fc604e4c14a72b",
                     "contents": [
                         "bin/sqlite3"
                     ]
                 },
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/armeabi-v7a/sqlite3.tar.zst",
-                    "sha256": "9e2bc1d08ceda1c6744299198524afcfb636eff0d29bb3b89f771b15fc5a0dbe",
+                    "sha256": "8cddabf2e76d4c5b52a4834deb029082296d0d046eb1217310d8e2c6206404ec",
                     "contents": [
                         "bin/sqlite3"
                     ]
                 },
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/x86/sqlite3.tar.zst",
-                    "sha256": "146d6ac9dc68373e1836d6fa0e378ac3be844475ee6e512990dd9a60a8d5f936",
+                    "sha256": "d5ffcbf91513223a1f43c7d7351b0087c15f25f595a8765eedcffc180fddb3f4",
                     "contents": [
                         "bin/sqlite3"
                     ]
                 },
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/x86_64/sqlite3.tar.zst",
-                    "sha256": "6f37cb51714fce8246e91b09cb3944d583a15e20413b0d20abfa0f1f11d452f7",
+                    "sha256": "5410d0305a49e7314ff32c2e7cb2f9b758bb54731bf4aa5452bd43d33d55e783",
                     "contents": [
                         "bin/sqlite3"
                     ]
                 },
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/riscv64/sqlite3.tar.zst",
-                    "sha256": "2d426d843015c01cc366623c17b210d3acea1a0acaf2e705a8508cb23716d757",
+                    "sha256": "2a8d9af43652e0d5fcd34eff1ecdf7aa915fea18445c6e2a170caa987a6915b2",
                     "contents": [
                         "bin/sqlite3"
                     ]
