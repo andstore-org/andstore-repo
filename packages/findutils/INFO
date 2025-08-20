@@ -1,0 +1,7 @@
+VERSION=4.10.0
+DESCRIPTION=The GNU Find Utilities are the basic directory searching utilities of the GNU operating system.
+HOMEPAGE=
+MIN_API=35
+DEPENDENCIES=
+LICENSE=GPLv2+
+CONFLICTS=
