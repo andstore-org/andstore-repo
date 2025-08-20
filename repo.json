@@ -171,6 +171,194 @@
                 }
             }
         },
+        "bzip2": {
+            "version": "1.0.8",
+            "description": "bzip2 is a free and open-source file compression program that uses the Burrows\u2013Wheeler algorithm.",
+            "homepage": "https://sourceware.org/bzip2/",
+            "min_api": "21",
+            "dependencies": [],
+            "license": "",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/arm64-v8a/bzip2.tar.zst",
+                    "sha256": "07158334a372f2a55549a2f772d2dffdfa89ccef3eef1f4e3159fda302d28f3f",
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/armeabi-v7a/bzip2.tar.zst",
+                    "sha256": "fe586885efb308ee144cf835c43fc11b59a089b8eb7b52b95a77a34813463616",
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86/bzip2.tar.zst",
+                    "sha256": "89b2321c7ec1722e45bfac892366fa684491ea8327a426817a74e767a0a5b945",
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86_64/bzip2.tar.zst",
+                    "sha256": "e90c86f78e388a8cf36d66ea71182cfbc0312c1106ceeb08a8a84ff7706546c5",
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/riscv64/bzip2.tar.zst",
+                    "sha256": "1556df74fc9ed8021edf78ebbab013efc07206d674f4dcd3294de36d006debe5",
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                }
+            }
+        },
+        "zstd": {
+            "version": "1.5.7",
+            "description": "Zstandard is a real-time compression algorithm, providing high compression ratios.",
+            "homepage": "https://facebook.github.io/zstd/",
+            "min_api": "24",
+            "dependencies": [],
+            "license": "BSD-3-Clause",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/arm64-v8a/zstd.tar.zst",
+                    "sha256": "abeafe8fd08bb00df8f891d30a4f9f25c5a79c37bd3d13a161bf36ede1a0c047",
+                    "contents": [
+                        "bin/zstd"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/armeabi-v7a/zstd.tar.zst",
+                    "sha256": "c79f8bea3118c2313e0ce77934c38822fe3d345bfc337cbbaeac4cf2676ce716",
+                    "contents": [
+                        "bin/zstd"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86/zstd.tar.zst",
+                    "sha256": "8851282cf749ffa737eb67c2907e87a767fb1b0a6253f4ffbf02a2165aaf4532",
+                    "contents": [
+                        "bin/zstd"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86_64/zstd.tar.zst",
+                    "sha256": "30693a254aaebf7015abec92cb0bc93045bd0a50e6031d929884574b17a4b4c2",
+                    "contents": [
+                        "bin/zstd"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/riscv64/zstd.tar.zst",
+                    "sha256": "b71730f3952223fdcbbbcbc5f6b3fb3f1c922249c36089677e824447bfa3cc37",
+                    "contents": [
+                        "bin/zstd"
+                    ]
+                }
+            }
+        },
+        "nano": {
+            "version": "8.5",
+            "description": "GNU nano is a small editor for on the terminal.",
+            "homepage": "https://www.nano-editor.org/",
+            "min_api": "28",
+            "dependencies": [],
+            "license": "GPLv3",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/arm64-v8a/nano.tar.zst",
+                    "sha256": "b752695af793f4bf7d8e34d60d08bcb4c853336274a51b692954a00515b6f725",
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/armeabi-v7a/nano.tar.zst",
+                    "sha256": "9cc696761f5a2eac3a7b2acc479fbcca5daebec6c79edf9d4106c8625a3f2042",
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86/nano.tar.zst",
+                    "sha256": "a2db120b7e10ec779d2ffbda7700ce7bda164901544ca8ce10984ae964f5b0bc",
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86_64/nano.tar.zst",
+                    "sha256": "52b81c90c3bd610b388c9286f618bcd75bbe1c980ee62265c3184f8f9cb81b2b",
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/riscv64/nano.tar.zst",
+                    "sha256": "0496142ee51c76c4c024894fcf9c5681ed7920def8ce5e7b8b11925f091d6c2f",
+                    "contents": [
+                        "bin/nano"
+                    ]
+                }
+            }
+        },
         "xz": {
             "version": "5.8.1",
             "description": "XZ-Utils",
@@ -323,6 +511,52 @@
                         "bin/xzgrep",
                         "bin/xzless",
                         "bin/xzmore"
+                    ]
+                }
+            }
+        },
+        "file": {
+            "version": "5.46",
+            "description": "file is a shell command for reporting the type of data contained in a file.",
+            "homepage": "https://www.darwinsys.com/file/",
+            "min_api": "28",
+            "dependencies": [],
+            "license": "BSD Clause 2",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/arm64-v8a/file.tar.zst",
+                    "sha256": "22346122b526aac150708b18fb2bbe20b0a14a472c1cbfb46c90cf2c2e4be3a7",
+                    "contents": [
+                        "bin/file"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/armeabi-v7a/file.tar.zst",
+                    "sha256": "864b836be81c2b55d6def6a7e6610e9e0aec4296f73cf19e9ceb0c02993c75b4",
+                    "contents": [
+                        "bin/file"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86/file.tar.zst",
+                    "sha256": "954bc1d90f49b6f7c3907222eef6b6ac835cebc15886d3a04d8ed43560ac60da",
+                    "contents": [
+                        "bin/file"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86_64/file.tar.zst",
+                    "sha256": "4be086112e64c958262610ba845f4c09cb87261308af59caf42933ba89869b1c",
+                    "contents": [
+                        "bin/file"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/riscv64/file.tar.zst",
+                    "sha256": "f520bd1c73ffb7a5435e0a7b40b46d7f207ee2958e01611231f7d2ac95711c96",
+                    "contents": [
+                        "bin/file"
                     ]
                 }
             }
