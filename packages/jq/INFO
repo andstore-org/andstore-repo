@@ -1,0 +1,7 @@
+VERSION=1.8.1
+DESCRIPTION=Command-line JSON processor
+HOMEPAGE=https://jqlang.org/
+MIN_API=21
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=
