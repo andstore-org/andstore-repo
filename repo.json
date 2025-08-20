@@ -11,7 +11,7 @@
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/arm64-v8a/jq.tar.zst",
-                    "sha256": "9ae01083016ff310ec6f709b410d3a831dfc06bcbea2acd0366bfdefc48d5ec4",
+                    "sha256": "01e52f444a1d065c8d103bc94edb4e89cdf78481448965655fb66ff2597c555b",
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -19,7 +19,7 @@
                 },
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/armeabi-v7a/jq.tar.zst",
-                    "sha256": "a5c605248418f2cd49462a558caa964c653b727da6b50f171b84b20e27257995",
+                    "sha256": "e2528bdf2cdedfd9ea703772c33f2b4e639a6fd7cf3da48ef682335ac5ea1ce5",
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -27,7 +27,7 @@
                 },
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86/jq.tar.zst",
-                    "sha256": "a165c2c0eff97ee2b562041a18ae28f245405f04a018681ebc960809ff13db16",
+                    "sha256": "494f35b8403982bdb46140d281db27d8f5c135f3854384340facc49eab3e01b5",
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -35,7 +35,7 @@
                 },
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86_64/jq.tar.zst",
-                    "sha256": "121043a52c4a9e5ed9cb485bc04aaa6766db2bb51f581eab84f05ed59009f2b1",
+                    "sha256": "8247587c5dc6c598825abcd92b0a7a2e47344b37f85047a1a64a1889b8e736de",
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -43,7 +43,7 @@
                 },
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/riscv64/jq.tar.zst",
-                    "sha256": "f2a5180f085a69935bc0534fd624756facf3f487893be029aa87f8931c24bb15",
+                    "sha256": "352389f0deec0a5a7fe1ab408346b5cd72f3d45986760781fb354e6af5051469",
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
