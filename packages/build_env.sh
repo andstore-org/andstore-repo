@@ -13,8 +13,6 @@ if [ "$ARCH" = "riscv64" ]; then
 	fi
 fi
 
-PACKAGE_DIR=$(cd "$(dirname "$0")" && pwd)
-
 VALID_ARCHES="armeabi-v7a arm64-v8a x86 x86_64 riscv64"
 
 arch_valid=0
