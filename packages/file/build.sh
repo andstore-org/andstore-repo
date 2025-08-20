@@ -11,18 +11,24 @@ download() {
 build_file() {
     tar -xzf "$SCRIPT_DIR/file-$FILE_VERSION.tar.gz" -C "$BUILD_DIR"
     cd "$BUILD_DIR/file-$FILE_VERSION"
-     sed -i 's/LT_INIT(\[disable-static pic-only\])/LT_INIT([static])/g' configure.ac
-     autoreconf -fi
+
+    extra_conf=""
+    case "$arch" in
+        armeabi-v7a|x86)
+            extra_conf="--disable-year2038"
+            ;;
+    esac
+
     ./configure \
-    --prefix="$PREFIX" \
-    --host="$HOST" \
-    --enable-static \
-    --disable-shared \
-    --disable-libseccomp \
-    --disable-zlib 
+        --prefix="$PREFIX" \
+        --host="$HOST" \
+        --enable-static \
+        --disable-shared \
+        --disable-libseccomp \
+        --disable-zlib \
+        $extra_conf
 
-    make -j$(nproc) FILE_COMPILE=$(which file) LDFLAGS="-all-static"
-
+    make -j$(nproc) FILE_COMPILE=$(which file)
     make install
     cd "$BUILD_DIR"
 }
@@ -73,7 +79,7 @@ cat > "$SCRIPT_DIR/INFO" <<EOF
 VERSION=$FILE_VERSION
 DESCRIPTION=file is a shell command for reporting the type of data contained in a file.
 HOMEPAGE=https://www.darwinsys.com/file/
-MIN_API=$api
+MIN_API=28
 DEPENDENCIES=
 LICENSE=BSD Clause 2
 CONFLICTS=
