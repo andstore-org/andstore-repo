@@ -1,0 +1,7 @@
+VERSION=1.0.8
+DESCRIPTION=bzip2 is a free and open-source file compression program that uses the Burrows–Wheeler algorithm.
+HOMEPAGE=https://sourceware.org/bzip2/
+MIN_API=21
+DEPENDENCIES=
+LICENSE=
+CONFLICTS=
