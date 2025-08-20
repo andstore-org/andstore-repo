@@ -1,5 +1,56 @@
 {
     "packages": {
+        "jq": {
+            "version": "1.8.1",
+            "description": "Command-line JSON processor",
+            "homepage": "https://jqlang.org/",
+            "min_api": "21",
+            "dependencies": [],
+            "license": "MIT",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/arm64-v8a/jq.tar.zst",
+                    "sha256": "9ae01083016ff310ec6f709b410d3a831dfc06bcbea2acd0366bfdefc48d5ec4",
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/armeabi-v7a/jq.tar.zst",
+                    "sha256": "a5c605248418f2cd49462a558caa964c653b727da6b50f171b84b20e27257995",
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86/jq.tar.zst",
+                    "sha256": "a165c2c0eff97ee2b562041a18ae28f245405f04a018681ebc960809ff13db16",
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86_64/jq.tar.zst",
+                    "sha256": "121043a52c4a9e5ed9cb485bc04aaa6766db2bb51f581eab84f05ed59009f2b1",
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/riscv64/jq.tar.zst",
+                    "sha256": "f2a5180f085a69935bc0534fd624756facf3f487893be029aa87f8931c24bb15",
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                }
+            }
+        },
         "protoc": {
             "version": "32.0",
             "description": "Protocol Buffers - Google's data interchange format",
