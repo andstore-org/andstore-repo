@@ -1,0 +1,7 @@
+VERSION=1.5.7
+DESCRIPTION=Zstandard is a real-time compression algorithm, providing high compression ratios.
+HOMEPAGE=https://facebook.github.io/zstd/
+MIN_API=24
+DEPENDENCIES=
+LICENSE=BSD-3-Clause
+CONFLICTS=
