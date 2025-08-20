@@ -13,20 +13,35 @@ download() {
 build_sqlite() {
     tar -xzf "$SCRIPT_DIR/sqlite-autoconf-3500400.tar.gz" -C "$BUILD_DIR"
     cd "$BUILD_DIR/sqlite-autoconf-3500400"
-    mkdir -p "$PREFIX/bin"
-    $CC_ABS $CFLAGS \
-        -DSQLITE_ENABLE_FTS3 \
-        -DSQLITE_ENABLE_FTS4 \
-        -DSQLITE_ENABLE_FTS5 \
-        -DSQLITE_ENABLE_JSON1 \
-        -DSQLITE_ENABLE_RTREE \
-        -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT \
-        -DSQLITE_ENABLE_MATH_FUNCTIONS \
-        -static -lm -ldl \
-        sqlite3.c shell.c -o "$PREFIX/bin/sqlite3"
+    
+    # Set up configure environment
+    export CFLAGS="$CFLAGS -static"
+    export LDFLAGS="$LDFLAGS -lm -ldl -static"
+    
+    # Configure for the target architecture
+    ./configure \
+        --host="$HOST" \
+        --prefix="$PREFIX" \
+        --enable-static \
+        --disable-shared \
+        --enable-fts3 \
+        --enable-fts4 \
+        --enable-fts5 \
+        --enable-rtree \
+        --enable-update-limit \
+       --enable-geopoly \
+       --enable-session \
+       --enable-scanstatus \
+        --enable-math \
+        CFLAGS="$CFLAGS" \
+        LIBS="-lm -ldl"
+    
+    # Build
+    make -j$(nproc)
+    make install
+    
     cd "$BUILD_DIR"
 }
-
 
 build_arch() {
     arch="$1"
@@ -40,6 +55,7 @@ build_arch() {
     source "$SCRIPT_DIR/../build_env.sh" "$arch" "$api"
     cd "$BUILD_DIR"
     build_sqlite
+    
     if [ -d "$PREFIX/bin" ]; then
         for f in "$PREFIX/bin/"*; do
             if [ -f "$f" ] && [ -x "$f" ]; then
@@ -81,6 +97,5 @@ DEPENDENCIES=
 LICENSE=Public Domain
 CONFLICTS=
 EOF
-
 
 echo "All builds complete"
