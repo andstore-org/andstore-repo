@@ -1,0 +1,7 @@
+VERSION=2.2.1
+DESCRIPTION=The tree application is useful to display a dictionary tree's contents, including files, directories, and links.
+HOMEPAGE=
+MIN_API=26
+DEPENDENCIES=
+LICENSE=GPLv2+
+CONFLICTS=
