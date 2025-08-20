@@ -51,13 +51,23 @@ build_ncurses() {
 build_file() {
     tar -xzf "$SCRIPT_DIR/file-$FILE_VERSION.tar.gz" -C "$BUILD_DIR"
     cd "$BUILD_DIR/file-$FILE_VERSION"
+
+    extra_conf=""
+    case "$arch" in
+        armeabi-v7a|x86)
+            extra_conf="--disable-year2038"
+            ;;
+    esac
+
     ./configure \
         --prefix="$PREFIX" \
         --host="$HOST" \
         --enable-static \
         --disable-shared \
         --disable-libseccomp \
-        --disable-zlib
+        --disable-zlib \
+        $extra_conf
+
     make -j$(nproc) FILE_COMPILE=$(which file)
     make install
     cd "$BUILD_DIR"
