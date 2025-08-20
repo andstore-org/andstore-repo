@@ -1,0 +1,7 @@
+VERSION=5.46
+DESCRIPTION=file is a shell command for reporting the type of data contained in a file.
+HOMEPAGE=https://www.darwinsys.com/file/
+MIN_API=28
+DEPENDENCIES=
+LICENSE=BSD Clause 2
+CONFLICTS=
