@@ -132,6 +132,67 @@
                 }
             }
         },
+        "findutils": {
+            "version": "4.10.0",
+            "description": "The GNU Find Utilities are the basic directory searching utilities of the GNU operating system.",
+            "homepage": "",
+            "min_api": "35",
+            "dependencies": [],
+            "license": "GPLv2+",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/arm64-v8a/findutils.tar.zst",
+                    "sha256": "ae35138c9362da00515d6e19a043a7d8d1269bacf1d0f8ae9625364643859caf",
+                    "contents": [
+                        "bin/find",
+                        "bin/locate",
+                        "bin/updatedb",
+                        "bin/xargs"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/armeabi-v7a/findutils.tar.zst",
+                    "sha256": "7cb6dbccfbc5daadfe2f2b5b17ce8669b47c169edf0e99a32fb32b65b1ed56d8",
+                    "contents": [
+                        "bin/find",
+                        "bin/locate",
+                        "bin/updatedb",
+                        "bin/xargs"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/x86/findutils.tar.zst",
+                    "sha256": "d3c119605c371ac203551fcb9660b4d4d37044f566b437386e3e34504a5b2f7b",
+                    "contents": [
+                        "bin/find",
+                        "bin/locate",
+                        "bin/updatedb",
+                        "bin/xargs"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/x86_64/findutils.tar.zst",
+                    "sha256": "66b1e53cdb07b8b1c0af406f91d5384d0fa5462470b0f6c5619ab396a75f0616",
+                    "contents": [
+                        "bin/find",
+                        "bin/locate",
+                        "bin/updatedb",
+                        "bin/xargs"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/riscv64/findutils.tar.zst",
+                    "sha256": "176c2bae414ff4e8745ecf678483c1b4b66b2381f8192583daba47395cea71ad",
+                    "contents": [
+                        "bin/find",
+                        "bin/locate",
+                        "bin/updatedb",
+                        "bin/xargs"
+                    ]
+                }
+            }
+        },
         "payload_dumper": {
             "version": "a442ab4",
             "description": "Rust-based Payload Dumper",
@@ -355,6 +416,52 @@
                     "sha256": "0496142ee51c76c4c024894fcf9c5681ed7920def8ce5e7b8b11925f091d6c2f",
                     "contents": [
                         "bin/nano"
+                    ]
+                }
+            }
+        },
+        "tree": {
+            "version": "2.2.1",
+            "description": "The tree application is useful to display a dictionary tree's contents, including files, directories, and links.",
+            "homepage": "",
+            "min_api": "26",
+            "dependencies": [],
+            "license": "GPLv2+",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/arm64-v8a/tree.tar.zst",
+                    "sha256": "3a3ea55131894485e13b3a4400543ee51f717557a067827b69939daf6d36fb6c",
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/armeabi-v7a/tree.tar.zst",
+                    "sha256": "0eabfd46d946e399e3c59b9c0275da0d950ee4e7590aef92f5ee8bf726d95a35",
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86/tree.tar.zst",
+                    "sha256": "da82e0b43154386b73552ba3f8456b4e32ee13984e6df000aaa558e645b27aac",
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86_64/tree.tar.zst",
+                    "sha256": "b2407445d457171a2a867a72fb3d85385a59968e81e7f8a6c9d1f1eda3db8ba9",
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/riscv64/tree.tar.zst",
+                    "sha256": "318c3f5291c6a3d1607cf8cfd91797d090a376863a782217bdd629cd52972633",
+                    "contents": [
+                        "bin/tree"
                     ]
                 }
             }
