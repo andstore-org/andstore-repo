@@ -16,7 +16,7 @@ build_jq() {
     export CFLAGS="$CFLAGS -static"
     export LDFLAGS="$LDFLAGS -static"
    # [ -f "configure.ac" ] && autoreconf -i
-    ./configure --with-oniguruma=builtin --prefix="${PREFIX}" --host="${HOST}" --enable-decnum --disable-docs
+    ./configure --with-oniguruma=builtin --prefix="${PREFIX}" --host="${HOST}" --enable-decnum --enable-static --enable-all-static --disable-docs
     make -j$(nproc)
     make install
     cd "$BUILD_DIR"
