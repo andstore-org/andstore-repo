@@ -50,11 +50,8 @@ def generate_repo_json(packages_dir):
 
         package_entry = {
             "version": info.get("VERSION", ""),
-            "description": info.get("DESCRIPTION", ""),
-            "homepage": info.get("HOMEPAGE", ""),
             "min_api": info.get("MIN_API", ""),
             "dependencies": info.get("DEPENDENCIES", "").split() if info.get("DEPENDENCIES") else [],
-            "license": info.get("LICENSE", ""),
             "conflicts": info.get("CONFLICTS", "").split() if info.get("CONFLICTS") else [],
             "architectures": {}
         }
