@@ -2,16 +2,14 @@
     "packages": {
         "jq": {
             "version": "1.8.1",
-            "description": "Command-line JSON processor",
-            "homepage": "https://jqlang.org/",
             "min_api": "21",
             "dependencies": [],
-            "license": "MIT",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/arm64-v8a/jq.tar.zst",
                     "sha256": "01e52f444a1d065c8d103bc94edb4e89cdf78481448965655fb66ff2597c555b",
+                    "size": 379847,
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -20,6 +18,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/armeabi-v7a/jq.tar.zst",
                     "sha256": "e2528bdf2cdedfd9ea703772c33f2b4e639a6fd7cf3da48ef682335ac5ea1ce5",
+                    "size": 372050,
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -28,6 +27,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86/jq.tar.zst",
                     "sha256": "494f35b8403982bdb46140d281db27d8f5c135f3854384340facc49eab3e01b5",
+                    "size": 388374,
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -36,6 +36,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86_64/jq.tar.zst",
                     "sha256": "8247587c5dc6c598825abcd92b0a7a2e47344b37f85047a1a64a1889b8e736de",
+                    "size": 404944,
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -44,6 +45,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/riscv64/jq.tar.zst",
                     "sha256": "352389f0deec0a5a7fe1ab408346b5cd72f3d45986760781fb354e6af5051469",
+                    "size": 365906,
                     "contents": [
                         "bin/jq",
                         "bin/onig-config"
@@ -53,16 +55,14 @@
         },
         "protoc": {
             "version": "32.0",
-            "description": "Protocol Buffers - Google's data interchange format",
-            "homepage": "https://github.com/protocolbuffers/protobuf",
             "min_api": "21",
             "dependencies": [],
-            "license": "BSD 3-Clause License",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/arm64-v8a/protoc.tar.zst",
                     "sha256": "74b970887a4a7ef85d10326cbc3ad32d1a05272753435be7d56d0a0e3fdab6bc",
+                    "size": 2714077,
                     "contents": [
                         "bin/protoc",
                         "bin/protoc-32.0.0",
@@ -77,6 +77,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/armeabi-v7a/protoc.tar.zst",
                     "sha256": "4134b79fd4ab52de5e17d6f43ab72bec7802d05b59fd3d8f4c9efb554f9aaeb8",
+                    "size": 2135357,
                     "contents": [
                         "bin/protoc",
                         "bin/protoc-32.0.0",
@@ -91,6 +92,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86/protoc.tar.zst",
                     "sha256": "6d2bb156f0dc111357ff2e5df0c01100b09e6176dfa2e48568484389390300d1",
+                    "size": 3032565,
                     "contents": [
                         "bin/protoc",
                         "bin/protoc-32.0.0",
@@ -105,6 +107,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86_64/protoc.tar.zst",
                     "sha256": "bb7286b01a6524b1274bd80f9c2309233d091dce9c7b12718294a4676fd62a8c",
+                    "size": 2783580,
                     "contents": [
                         "bin/protoc",
                         "bin/protoc-32.0.0",
@@ -119,6 +122,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/riscv64/protoc.tar.zst",
                     "sha256": "58a2f769a46c271e0f42bd050a9aeeb2a9c88cdd08757e49f09fe903e6f5fcde",
+                    "size": 3238300,
                     "contents": [
                         "bin/protoc",
                         "bin/protoc-32.0.0",
@@ -134,16 +138,14 @@
         },
         "findutils": {
             "version": "4.10.0",
-            "description": "The GNU Find Utilities are the basic directory searching utilities of the GNU operating system.",
-            "homepage": "",
-            "min_api": "35",
+            "min_api": "",
             "dependencies": [],
-            "license": "GPLv2+",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/arm64-v8a/findutils.tar.zst",
                     "sha256": "ae35138c9362da00515d6e19a043a7d8d1269bacf1d0f8ae9625364643859caf",
+                    "size": 327916,
                     "contents": [
                         "bin/find",
                         "bin/locate",
@@ -154,6 +156,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/armeabi-v7a/findutils.tar.zst",
                     "sha256": "7cb6dbccfbc5daadfe2f2b5b17ce8669b47c169edf0e99a32fb32b65b1ed56d8",
+                    "size": 277966,
                     "contents": [
                         "bin/find",
                         "bin/locate",
@@ -164,6 +167,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/x86/findutils.tar.zst",
                     "sha256": "d3c119605c371ac203551fcb9660b4d4d37044f566b437386e3e34504a5b2f7b",
+                    "size": 332706,
                     "contents": [
                         "bin/find",
                         "bin/locate",
@@ -174,6 +178,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/x86_64/findutils.tar.zst",
                     "sha256": "66b1e53cdb07b8b1c0af406f91d5384d0fa5462470b0f6c5619ab396a75f0616",
+                    "size": 320560,
                     "contents": [
                         "bin/find",
                         "bin/locate",
@@ -184,6 +189,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/findutils/riscv64/findutils.tar.zst",
                     "sha256": "176c2bae414ff4e8745ecf678483c1b4b66b2381f8192583daba47395cea71ad",
+                    "size": 304907,
                     "contents": [
                         "bin/find",
                         "bin/locate",
@@ -195,16 +201,14 @@
         },
         "payload_dumper": {
             "version": "a442ab4",
-            "description": "Rust-based Payload Dumper",
-            "homepage": "https://github.com/rhythmcache/payload-dumper-rust",
             "min_api": "21",
             "dependencies": [],
-            "license": "MIT",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/arm64-v8a/payload_dumper.tar.zst",
                     "sha256": "81847c10ba0ff373e3091ae5a9e070c60e76c9dcdeb5abd765fc11aa38a12884",
+                    "size": 1716694,
                     "contents": [
                         "bin/payload_dumper"
                     ]
@@ -212,6 +216,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/armeabi-v7a/payload_dumper.tar.zst",
                     "sha256": "bf1798c77b5f719a7f6d733f4e9c96d6e7d090b3c4a34568292b26797cd6b50c",
+                    "size": 1427053,
                     "contents": [
                         "bin/payload_dumper"
                     ]
@@ -219,6 +224,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86/payload_dumper.tar.zst",
                     "sha256": "9b027e636d080ca24aff622b6bfc9208b35a5f752ea899729210e8c3aa0c10d8",
+                    "size": 1699555,
                     "contents": [
                         "bin/payload_dumper"
                     ]
@@ -226,6 +232,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86_64/payload_dumper.tar.zst",
                     "sha256": "d4810788aa320d4445e9c6223e28494a6e3a09b579e91e23c853acd7e0de7bea",
+                    "size": 1797323,
                     "contents": [
                         "bin/payload_dumper"
                     ]
@@ -234,16 +241,14 @@
         },
         "bzip2": {
             "version": "1.0.8",
-            "description": "bzip2 is a free and open-source file compression program that uses the Burrows\u2013Wheeler algorithm.",
-            "homepage": "https://sourceware.org/bzip2/",
             "min_api": "21",
             "dependencies": [],
-            "license": "",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/arm64-v8a/bzip2.tar.zst",
                     "sha256": "07158334a372f2a55549a2f772d2dffdfa89ccef3eef1f4e3159fda302d28f3f",
+                    "size": 164008,
                     "contents": [
                         "bin/bunzip2",
                         "bin/bzcat",
@@ -261,6 +266,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/armeabi-v7a/bzip2.tar.zst",
                     "sha256": "fe586885efb308ee144cf835c43fc11b59a089b8eb7b52b95a77a34813463616",
+                    "size": 125215,
                     "contents": [
                         "bin/bunzip2",
                         "bin/bzcat",
@@ -278,6 +284,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86/bzip2.tar.zst",
                     "sha256": "89b2321c7ec1722e45bfac892366fa684491ea8327a426817a74e767a0a5b945",
+                    "size": 145677,
                     "contents": [
                         "bin/bunzip2",
                         "bin/bzcat",
@@ -295,6 +302,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86_64/bzip2.tar.zst",
                     "sha256": "e90c86f78e388a8cf36d66ea71182cfbc0312c1106ceeb08a8a84ff7706546c5",
+                    "size": 170941,
                     "contents": [
                         "bin/bunzip2",
                         "bin/bzcat",
@@ -312,6 +320,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/riscv64/bzip2.tar.zst",
                     "sha256": "1556df74fc9ed8021edf78ebbab013efc07206d674f4dcd3294de36d006debe5",
+                    "size": 143886,
                     "contents": [
                         "bin/bunzip2",
                         "bin/bzcat",
@@ -330,16 +339,14 @@
         },
         "zstd": {
             "version": "1.5.7",
-            "description": "Zstandard is a real-time compression algorithm, providing high compression ratios.",
-            "homepage": "https://facebook.github.io/zstd/",
             "min_api": "24",
             "dependencies": [],
-            "license": "BSD-3-Clause",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/arm64-v8a/zstd.tar.zst",
                     "sha256": "abeafe8fd08bb00df8f891d30a4f9f25c5a79c37bd3d13a161bf36ede1a0c047",
+                    "size": 377969,
                     "contents": [
                         "bin/zstd"
                     ]
@@ -347,6 +354,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/armeabi-v7a/zstd.tar.zst",
                     "sha256": "c79f8bea3118c2313e0ce77934c38822fe3d345bfc337cbbaeac4cf2676ce716",
+                    "size": 422677,
                     "contents": [
                         "bin/zstd"
                     ]
@@ -354,6 +362,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86/zstd.tar.zst",
                     "sha256": "8851282cf749ffa737eb67c2907e87a767fb1b0a6253f4ffbf02a2165aaf4532",
+                    "size": 470823,
                     "contents": [
                         "bin/zstd"
                     ]
@@ -361,6 +370,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86_64/zstd.tar.zst",
                     "sha256": "30693a254aaebf7015abec92cb0bc93045bd0a50e6031d929884574b17a4b4c2",
+                    "size": 435339,
                     "contents": [
                         "bin/zstd"
                     ]
@@ -368,6 +378,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/riscv64/zstd.tar.zst",
                     "sha256": "b71730f3952223fdcbbbcbc5f6b3fb3f1c922249c36089677e824447bfa3cc37",
+                    "size": 371000,
                     "contents": [
                         "bin/zstd"
                     ]
@@ -376,16 +387,14 @@
         },
         "nano": {
             "version": "8.5",
-            "description": "GNU nano is a small editor for on the terminal.",
-            "homepage": "https://www.nano-editor.org/",
             "min_api": "28",
             "dependencies": [],
-            "license": "GPLv3",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/arm64-v8a/nano.tar.zst",
                     "sha256": "b752695af793f4bf7d8e34d60d08bcb4c853336274a51b692954a00515b6f725",
+                    "size": 424134,
                     "contents": [
                         "bin/nano"
                     ]
@@ -393,6 +402,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/armeabi-v7a/nano.tar.zst",
                     "sha256": "9cc696761f5a2eac3a7b2acc479fbcca5daebec6c79edf9d4106c8625a3f2042",
+                    "size": 382428,
                     "contents": [
                         "bin/nano"
                     ]
@@ -400,6 +410,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86/nano.tar.zst",
                     "sha256": "a2db120b7e10ec779d2ffbda7700ce7bda164901544ca8ce10984ae964f5b0bc",
+                    "size": 430088,
                     "contents": [
                         "bin/nano"
                     ]
@@ -407,6 +418,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86_64/nano.tar.zst",
                     "sha256": "52b81c90c3bd610b388c9286f618bcd75bbe1c980ee62265c3184f8f9cb81b2b",
+                    "size": 420188,
                     "contents": [
                         "bin/nano"
                     ]
@@ -414,6 +426,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/riscv64/nano.tar.zst",
                     "sha256": "0496142ee51c76c4c024894fcf9c5681ed7920def8ce5e7b8b11925f091d6c2f",
+                    "size": 406527,
                     "contents": [
                         "bin/nano"
                     ]
@@ -422,16 +435,14 @@
         },
         "tree": {
             "version": "2.2.1",
-            "description": "The tree application is useful to display a dictionary tree's contents, including files, directories, and links.",
-            "homepage": "",
             "min_api": "26",
             "dependencies": [],
-            "license": "GPLv2+",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/arm64-v8a/tree.tar.zst",
                     "sha256": "3a3ea55131894485e13b3a4400543ee51f717557a067827b69939daf6d36fb6c",
+                    "size": 152315,
                     "contents": [
                         "bin/tree"
                     ]
@@ -439,6 +450,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/armeabi-v7a/tree.tar.zst",
                     "sha256": "0eabfd46d946e399e3c59b9c0275da0d950ee4e7590aef92f5ee8bf726d95a35",
+                    "size": 119618,
                     "contents": [
                         "bin/tree"
                     ]
@@ -446,6 +458,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86/tree.tar.zst",
                     "sha256": "da82e0b43154386b73552ba3f8456b4e32ee13984e6df000aaa558e645b27aac",
+                    "size": 141580,
                     "contents": [
                         "bin/tree"
                     ]
@@ -453,6 +466,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86_64/tree.tar.zst",
                     "sha256": "b2407445d457171a2a867a72fb3d85385a59968e81e7f8a6c9d1f1eda3db8ba9",
+                    "size": 160711,
                     "contents": [
                         "bin/tree"
                     ]
@@ -460,6 +474,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/riscv64/tree.tar.zst",
                     "sha256": "318c3f5291c6a3d1607cf8cfd91797d090a376863a782217bdd629cd52972633",
+                    "size": 131096,
                     "contents": [
                         "bin/tree"
                     ]
@@ -468,16 +483,14 @@
         },
         "xz": {
             "version": "5.8.1",
-            "description": "XZ-Utils",
-            "homepage": "https://tukaani.org/xz/",
             "min_api": "21",
             "dependencies": [],
-            "license": "BSD Zero Clause License",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/arm64-v8a/xz.tar.zst",
                     "sha256": "bd24e48461ee0058e42a738f761e5327255644010764708b7547363cb480b55e",
+                    "size": 122496,
                     "contents": [
                         "bin/lzcat",
                         "bin/lzcmp",
@@ -507,6 +520,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/armeabi-v7a/xz.tar.zst",
                     "sha256": "2f73a5b835296a184ec6f539f61ff0845aa57d0b541939cc40c12647c76e54f8",
+                    "size": 122036,
                     "contents": [
                         "bin/lzcat",
                         "bin/lzcmp",
@@ -536,6 +550,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/x86/xz.tar.zst",
                     "sha256": "95e4d1201ddf7b998b14da18608ae8c057dce4e15f20ff215cbc48a6e389bf9a",
+                    "size": 131950,
                     "contents": [
                         "bin/lzcat",
                         "bin/lzcmp",
@@ -565,6 +580,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/x86_64/xz.tar.zst",
                     "sha256": "83a459e6c66cef186fc8d60f92e163c5662e51dfb94cf29bfca46f5646b7ff84",
+                    "size": 125093,
                     "contents": [
                         "bin/lzcat",
                         "bin/lzcmp",
@@ -594,6 +610,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xz/riscv64/xz.tar.zst",
                     "sha256": "9a34daa1d087cedeb51da24362a0deb744d56d347918f4ade32f898d27284705",
+                    "size": 121580,
                     "contents": [
                         "bin/lzcat",
                         "bin/lzcmp",
@@ -624,16 +641,14 @@
         },
         "file": {
             "version": "5.46",
-            "description": "file is a shell command for reporting the type of data contained in a file.",
-            "homepage": "https://www.darwinsys.com/file/",
             "min_api": "28",
             "dependencies": [],
-            "license": "BSD Clause 2",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/arm64-v8a/file.tar.zst",
                     "sha256": "22346122b526aac150708b18fb2bbe20b0a14a472c1cbfb46c90cf2c2e4be3a7",
+                    "size": 64265,
                     "contents": [
                         "bin/file"
                     ]
@@ -641,6 +656,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/armeabi-v7a/file.tar.zst",
                     "sha256": "864b836be81c2b55d6def6a7e6610e9e0aec4296f73cf19e9ceb0c02993c75b4",
+                    "size": 62668,
                     "contents": [
                         "bin/file"
                     ]
@@ -648,6 +664,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86/file.tar.zst",
                     "sha256": "954bc1d90f49b6f7c3907222eef6b6ac835cebc15886d3a04d8ed43560ac60da",
+                    "size": 73276,
                     "contents": [
                         "bin/file"
                     ]
@@ -655,6 +672,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86_64/file.tar.zst",
                     "sha256": "4be086112e64c958262610ba845f4c09cb87261308af59caf42933ba89869b1c",
+                    "size": 65093,
                     "contents": [
                         "bin/file"
                     ]
@@ -662,6 +680,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/riscv64/file.tar.zst",
                     "sha256": "f520bd1c73ffb7a5435e0a7b40b46d7f207ee2958e01611231f7d2ac95711c96",
+                    "size": 64845,
                     "contents": [
                         "bin/file"
                     ]
@@ -670,16 +689,14 @@
         },
         "openssl": {
             "version": "3.5.2",
-            "description": "OpenSSL provides cryptographic functions and SSL/TLS for applications.",
-            "homepage": "https://www.openssl.org/",
             "min_api": "",
             "dependencies": [],
-            "license": " Apache-2.0 license",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/arm64-v8a/openssl.tar.zst",
                     "sha256": "2d9688d606f802ea06deaf35e9c4882501d89155226360354982f6040658f28b",
+                    "size": 2523189,
                     "contents": [
                         "bin/openssl"
                     ]
@@ -687,6 +704,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/armeabi-v7a/openssl.tar.zst",
                     "sha256": "597279a5b0a7a385c48b128a64814126d945063df4c85f0bde873d6f4f788d1e",
+                    "size": 1902424,
                     "contents": [
                         "bin/openssl"
                     ]
@@ -694,6 +712,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/x86/openssl.tar.zst",
                     "sha256": "13d58dfa5c04d4b04e5fb76d4dfa92097e11cccbfab05921a75f622a3ed339b8",
+                    "size": 2243382,
                     "contents": [
                         "bin/openssl"
                     ]
@@ -701,6 +720,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/x86_64/openssl.tar.zst",
                     "sha256": "c1ba21f2a234922d15449e4968a54f6f633b189305d02563429481f8bba9f40c",
+                    "size": 2156726,
                     "contents": [
                         "bin/openssl"
                     ]
@@ -708,24 +728,63 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/openssl/riscv64/openssl.tar.zst",
                     "sha256": "c3b0c3042888a5695cd90a84074f45f78b22c8404ba6fa6f41a5cb20affdf35d",
+                    "size": 1829897,
                     "contents": [
                         "bin/openssl"
                     ]
                 }
             }
         },
-        "brotli": {
-            "version": "1.1.0",
-            "description": "Brotli is a generic-purpose lossless compression algorithm",
-            "homepage": "https://github.com/google/brotli",
+        "abx2xml": {
+            "version": "0.1.0",
             "min_api": "21",
             "dependencies": [],
-            "license": "MIT",
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/arm64-v8a/abx2xml.tar.zst",
+                    "sha256": "76264cad5fb048fc9ff9773b2deb84c672d512e27d6de791a1d635af0ea1282e",
+                    "size": 340274,
+                    "contents": [
+                        "bin/abx2xml"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/armeabi-v7a/abx2xml.tar.zst",
+                    "sha256": "c0403e7c550ece0647dacad58e83e7eae3b54fa34c6f4367aed31496accaa5e1",
+                    "size": 294498,
+                    "contents": [
+                        "bin/abx2xml"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86/abx2xml.tar.zst",
+                    "sha256": "4d8e17d228c4417226ea4a371115b892ec84a6a3065bc856dc4e685d6b18ca7d",
+                    "size": 363437,
+                    "contents": [
+                        "bin/abx2xml"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86_64/abx2xml.tar.zst",
+                    "sha256": "83253ee44cd9c69ea225105cf38405450e54b07c56162e4d789cd3a8da8accdf",
+                    "size": 360530,
+                    "contents": [
+                        "bin/abx2xml"
+                    ]
+                }
+            }
+        },
+        "brotli": {
+            "version": "1.1.0",
+            "min_api": "21",
+            "dependencies": [],
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/arm64-v8a/brotli.tar.zst",
                     "sha256": "bc6779e24499e255690c01b02544a8e227b0dd492230161b84e00f30db1cce9f",
+                    "size": 448839,
                     "contents": [
                         "bin/brotli"
                     ]
@@ -733,6 +792,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/armeabi-v7a/brotli.tar.zst",
                     "sha256": "37ca63aa95e516298112aa1f9949eb69aaa6b506c9596f77d4a0d4206f72fea9",
+                    "size": 414115,
                     "contents": [
                         "bin/brotli"
                     ]
@@ -740,6 +800,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86/brotli.tar.zst",
                     "sha256": "ddee50c87c817eb71a29d6706b7ac2c3f5a17269285a6e2eb588fa86163f9b37",
+                    "size": 443884,
                     "contents": [
                         "bin/brotli"
                     ]
@@ -747,6 +808,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86_64/brotli.tar.zst",
                     "sha256": "d2adc14a4504efdbce850cb7e087381f2300a147fb0d31699bcbc1f656c3d8fc",
+                    "size": 474346,
                     "contents": [
                         "bin/brotli"
                     ]
@@ -754,6 +816,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/riscv64/brotli.tar.zst",
                     "sha256": "d9dc027e05774b5f1ac00e3983b21699eb0d5482cda9a5365e5477aa2d78667b",
+                    "size": 432104,
                     "contents": [
                         "bin/brotli"
                     ]
@@ -762,16 +825,14 @@
         },
         "sqlite3": {
             "version": "3500400",
-            "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
-            "homepage": "https://sqlite.org/",
             "min_api": "21",
             "dependencies": [],
-            "license": "Public Domain",
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/arm64-v8a/sqlite3.tar.zst",
                     "sha256": "5c26f77748abaa5be56d0286a7e015d462f2513e78e7c1d360fc604e4c14a72b",
+                    "size": 866437,
                     "contents": [
                         "bin/sqlite3"
                     ]
@@ -779,6 +840,7 @@
                 "armeabi-v7a": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/armeabi-v7a/sqlite3.tar.zst",
                     "sha256": "8cddabf2e76d4c5b52a4834deb029082296d0d046eb1217310d8e2c6206404ec",
+                    "size": 822820,
                     "contents": [
                         "bin/sqlite3"
                     ]
@@ -786,6 +848,7 @@
                 "x86": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/x86/sqlite3.tar.zst",
                     "sha256": "d5ffcbf91513223a1f43c7d7351b0087c15f25f595a8765eedcffc180fddb3f4",
+                    "size": 892509,
                     "contents": [
                         "bin/sqlite3"
                     ]
@@ -793,6 +856,7 @@
                 "x86_64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/x86_64/sqlite3.tar.zst",
                     "sha256": "5410d0305a49e7314ff32c2e7cb2f9b758bb54731bf4aa5452bd43d33d55e783",
+                    "size": 878697,
                     "contents": [
                         "bin/sqlite3"
                     ]
@@ -800,6 +864,7 @@
                 "riscv64": {
                     "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/sqlite3/riscv64/sqlite3.tar.zst",
                     "sha256": "2a8d9af43652e0d5fcd34eff1ecdf7aa915fea18445c6e2a170caa987a6915b2",
+                    "size": 836098,
                     "contents": [
                         "bin/sqlite3"
                     ]
