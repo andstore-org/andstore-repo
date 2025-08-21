@@ -69,10 +69,12 @@ def generate_repo_json(packages_dir):
                     file_path = os.path.join(arch_path, file)
                     checksum = sha256sum(file_path)
                     contents = list_tar_zst_contents(file_path)
+                    size_bytes = os.path.getsize(file_path)
 
                     package_entry["architectures"][arch] = {
                         "url": f"{REPO_URL}/{package_name}/{arch}/{file}",
                         "sha256": checksum,
+                        "size": size_bytes,
                         "contents": contents
                     }
 
