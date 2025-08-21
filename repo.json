@@ -886,6 +886,59 @@
                 }
             }
         },
+        "xmllint": {
+            "version": "master",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xmllint/arm64-v8a/xmllint.tar.zst",
+                    "sha256": "79ff585f8e93e70577304c77f601d053231ee70f93887f6fe1089b354c1cda87",
+                    "size": 1036486,
+                    "uncompressed_size": 2787696,
+                    "contents": [
+                        "bin/xmllint"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xmllint/armeabi-v7a/xmllint.tar.zst",
+                    "sha256": "9791514ee9101dde60bcf14def8dd2e0b06ec1dc84c7a51141992045385593c1",
+                    "size": 976819,
+                    "uncompressed_size": 2591380,
+                    "contents": [
+                        "bin/xmllint"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xmllint/x86/xmllint.tar.zst",
+                    "sha256": "f408b6cc7cf727552a2d89e735b7abcf74a38efb2e3e3e8fc3262088e5c0e86f",
+                    "size": 1040490,
+                    "uncompressed_size": 2794468,
+                    "contents": [
+                        "bin/xmllint"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xmllint/x86_64/xmllint.tar.zst",
+                    "sha256": "794af1ff8fed58140f4d8cf1646e3da212eb6024b8ccf94a628c0680c26b2bf9",
+                    "size": 1029889,
+                    "uncompressed_size": 2678664,
+                    "contents": [
+                        "bin/xmllint"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/xmllint/riscv64/xmllint.tar.zst",
+                    "sha256": "3fb226bf9cbd1dc976f787c0afbc7b066b8f24e4208467fafc74488c37586563",
+                    "size": 1035406,
+                    "uncompressed_size": 2657960,
+                    "contents": [
+                        "bin/xmllint"
+                    ]
+                }
+            }
+        },
         "sqlite3": {
             "version": "3500400",
             "min_api": "21",
