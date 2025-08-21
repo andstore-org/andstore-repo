@@ -25,14 +25,18 @@ def read_info_file(info_path):
 
 def list_tar_zst_contents(file_path):
     contents = []
+    total_uncompressed_size = 0
+
     dctx = zstd.ZstdDecompressor()
     with open(file_path, "rb") as f:
         with dctx.stream_reader(f) as reader:
-            with tarfile.open(fileobj=io.BytesIO(reader.read()), mode="r:") as tar:
-                for member in tar.getmembers():
+            with tarfile.open(fileobj=reader, mode="r|*") as tar:  # stream mode
+                for member in tar:
                     if not member.isdir():
                         contents.append(member.name)
-    return contents
+                        total_uncompressed_size += member.size
+
+    return contents, total_uncompressed_size
 
 def generate_repo_json(packages_dir):
     repo = {"packages": {}}
@@ -72,6 +76,7 @@ def generate_repo_json(packages_dir):
                         "url": f"{REPO_URL}/{package_name}/{arch}/{file}",
                         "sha256": checksum,
                         "size": size_bytes,
+                        "uncompressed_size": unpacked_size,
                         "contents": contents
                     }
 
