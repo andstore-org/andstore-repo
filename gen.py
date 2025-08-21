@@ -2,7 +2,6 @@ import os
 import json
 import hashlib
 import tarfile
-import io
 import zstandard as zstd
 
 REPO_URL = "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages"
@@ -30,7 +29,8 @@ def list_tar_zst_contents(file_path):
     dctx = zstd.ZstdDecompressor()
     with open(file_path, "rb") as f:
         with dctx.stream_reader(f) as reader:
-            with tarfile.open(fileobj=reader, mode="r|*") as tar:  # stream mode
+            # streaming mode, avoids loading everything into memory
+            with tarfile.open(fileobj=reader, mode="r|*") as tar:
                 for member in tar:
                     if not member.isdir():
                         contents.append(member.name)
@@ -69,14 +69,14 @@ def generate_repo_json(packages_dir):
                 if file.endswith(".tar.zst"):
                     file_path = os.path.join(arch_path, file)
                     checksum = sha256sum(file_path)
-                    contents = list_tar_zst_contents(file_path)
+                    contents, unpacked_size = list_tar_zst_contents(file_path)
                     size_bytes = os.path.getsize(file_path)
 
                     package_entry["architectures"][arch] = {
                         "url": f"{REPO_URL}/{package_name}/{arch}/{file}",
                         "sha256": checksum,
-                        "size": size_bytes,
-                        "uncompressed_size": unpacked_size,
+                        "size": size_bytes,                  # compressed size
+                        "uncompressed_size": unpacked_size,  # after extraction
                         "contents": contents
                     }
 
