@@ -1,0 +1,7 @@
+VERSION=0.1.0
+DESCRIPTION=Rust Library to decode android binary xml
+HOMEPAGE=https://github.com/rhythmcache/abx2xml-rs
+MIN_API=21
+DEPENDENCIES=
+LICENSE=Apache 2
+CONFLICTS=
