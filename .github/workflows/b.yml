@@ -20,6 +20,13 @@ jobs:
         with:
           ndk-version: r27d
           add-to-path: true
+          
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          override: true
       
       - name: Run custom command
         run: ${{ github.event.inputs.command }}
