@@ -125,3 +125,13 @@ done
 rm -f "$SCRIPT_DIR/libxml2-$LIBXML2_VERSION.zip"
 rm -f "$SCRIPT_DIR/zlib-$ZLIB_VERSION.tar.gz"
 rm -f "$SCRIPT_DIR/libiconv-$LIBICONV_VERSION.tar.gz"
+
+cat > "$SCRIPT_DIR/INFO" <<EOF
+VERSION=${LIBXML2_VERSION}
+DESCRIPTION=libxml2 is an XML toolkit implemented in C, originally developed for the GNOME Project.
+HOMEPAGE=https://github.com/GNOME/libxml2
+MIN_API=21
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=
+EOF
