@@ -1,0 +1,7 @@
+VERSION=master
+DESCRIPTION=libxml2 is an XML toolkit implemented in C, originally developed for the GNOME Project.
+HOMEPAGE=https://github.com/GNOME/libxml2
+MIN_API=21
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=
