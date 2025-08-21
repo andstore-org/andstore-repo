@@ -26,8 +26,8 @@ build_arch() {
     export CXXFLAGS="$CXXFLAGS -static"
     export LDFLAGS="$LDFLAGS -static"
     setup_rust
-    mkdir -p "$SCRIPT_DIR/payload-dumper-rust/.cargo"
-    cat > "$SCRIPT_DIR/payload-dumper-rust/.cargo/config.toml" <<EOF
+    mkdir -p "$SCRIPT_DIR/abx2xml-rs/.cargo"
+    cat > "$SCRIPT_DIR/abx2xml-rs/.cargo/config.toml" <<EOF
 [target.$RUST_TARGET]
 linker = "$CC_ABS"
 ar = "$AR"
@@ -38,7 +38,7 @@ rustflags = [
 EOF
 
     cd "$SCRIPT_DIR/abx2xml-rs"
-    cargo build --release --target "$RUST_TARGET" --all-features
+    cargo build --release --target "$RUST_TARGET"
 
     cp "target/$RUST_TARGET/release/abx2xml" "$PREFIX/bin/"
     if [ -f "$PREFIX/bin/abx2xml" ]; then
