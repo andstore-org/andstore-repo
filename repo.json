@@ -730,6 +730,85 @@
                 }
             }
         },
+        "ffmpeg": {
+            "version": "8.0",
+            "min_api": "21",
+            "dependencies": [
+                "libc++",
+                "ocl-icd"
+            ],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ffmpeg/arm64-v8a/ffmpeg.tar.zst",
+                    "sha256": "7c5330cd381a408946fcf861dd6284155aaa893a0f64aa13a5d4e025e55e8b0c",
+                    "size": 48295263,
+                    "uncompressed_size": 110871328,
+                    "contents": [
+                        "bin/ffmpeg",
+                        "bin/ffprobe",
+                        "lib/libavcodec.so",
+                        "lib/libavdevice.so",
+                        "lib/libavutil.so",
+                        "lib/libswresample.so",
+                        "lib/libavformat.so",
+                        "lib/libswscale.so",
+                        "lib/libavfilter.so"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ffmpeg/armeabi-v7a/ffmpeg.tar.zst",
+                    "sha256": "2bc64cda74903c4fd989a6b3934436995a23773d2b8b4a02f27bb51c8bf47356",
+                    "size": 46298707,
+                    "uncompressed_size": 97607984,
+                    "contents": [
+                        "bin/ffmpeg",
+                        "bin/ffprobe",
+                        "lib/libavcodec.so",
+                        "lib/libavdevice.so",
+                        "lib/libavutil.so",
+                        "lib/libswresample.so",
+                        "lib/libavformat.so",
+                        "lib/libswscale.so",
+                        "lib/libavfilter.so"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ffmpeg/x86/ffmpeg.tar.zst",
+                    "sha256": "9fcae08545bd112cf9826e6e875ddbdb8d4aa29fea29aba68f1b977df6b2af9b",
+                    "size": 50783536,
+                    "uncompressed_size": 130393408,
+                    "contents": [
+                        "bin/ffmpeg",
+                        "bin/ffprobe",
+                        "lib/libavcodec.so",
+                        "lib/libavdevice.so",
+                        "lib/libavutil.so",
+                        "lib/libswresample.so",
+                        "lib/libavformat.so",
+                        "lib/libswscale.so",
+                        "lib/libavfilter.so"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ffmpeg/x86_64/ffmpeg.tar.zst",
+                    "sha256": "2f337f06388e2efb2334fde81358f23ce78c0097bd4ca76f017e22ab44668300",
+                    "size": 52190873,
+                    "uncompressed_size": 139125384,
+                    "contents": [
+                        "bin/ffmpeg",
+                        "bin/ffprobe",
+                        "lib/libavcodec.so",
+                        "lib/libavdevice.so",
+                        "lib/libavutil.so",
+                        "lib/libswresample.so",
+                        "lib/libavformat.so",
+                        "lib/libswscale.so",
+                        "lib/libavfilter.so"
+                    ]
+                }
+            }
+        },
         "nano": {
             "version": "8.5",
             "min_api": "28",
@@ -779,6 +858,59 @@
                     "uncompressed_size": 807088,
                     "contents": [
                         "bin/nano"
+                    ]
+                }
+            }
+        },
+        "ocl-icd": {
+            "version": "2.3.2",
+            "min_api": "29",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ocl-icd/arm64-v8a/ocl-icd.tar.zst",
+                    "sha256": "c1d62e742c12adf132d086b8d3b6823ee54393d0cbfb9c02e77ad779b64043b9",
+                    "size": 21962,
+                    "uncompressed_size": 69952,
+                    "contents": [
+                        "lib/libOpenCL.so"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ocl-icd/armeabi-v7a/ocl-icd.tar.zst",
+                    "sha256": "dd7280fb2b90ec82bc025ff25fc9aff4cb650ee13c0352e68dd0c25f3d8ef80d",
+                    "size": 16301,
+                    "uncompressed_size": 55252,
+                    "contents": [
+                        "lib/libOpenCL.so"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ocl-icd/x86/ocl-icd.tar.zst",
+                    "sha256": "6f799481cf8237fd1bb5e0354dafdfa5bf82dfaff728739050d760b0005e7698",
+                    "size": 20851,
+                    "uncompressed_size": 87552,
+                    "contents": [
+                        "lib/libOpenCL.so"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ocl-icd/x86_64/ocl-icd.tar.zst",
+                    "sha256": "11d61f7c88d8af9696b7dfa314219e1c3d9d52f5918cb62788dc3e0e1f310d85",
+                    "size": 18080,
+                    "uncompressed_size": 68088,
+                    "contents": [
+                        "lib/libOpenCL.so"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ocl-icd/riscv64/ocl-icd.tar.zst",
+                    "sha256": "e976b4e4b03b5233c485ad8efca97ad16b94411af89b8b2bcd56ed0dfbe80b75",
+                    "size": 19319,
+                    "uncompressed_size": 59456,
+                    "contents": [
+                        "lib/libOpenCL.so"
                     ]
                 }
             }
