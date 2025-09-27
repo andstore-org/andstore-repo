@@ -1,1 +1,7 @@
-
+VERSION=2.3.2
+DESCRIPTION=OpenCL Installable Client Driver Loader library
+HOMEPAGE=https://github.com/OCL-dev/ocl-icd
+MIN_API=29
+DEPENDENCIES=
+LICENSE=MIT
+CONFLICTS=
