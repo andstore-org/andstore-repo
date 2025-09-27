@@ -806,6 +806,23 @@
                         "lib/libswscale.so",
                         "lib/libavfilter.so"
                     ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/ffmpeg/riscv64/ffmpeg.tar.zst",
+                    "sha256": "cbd76d1195103feb96c9fbd87f13fd0adcc0166291b03996e335ff3108c6516f",
+                    "size": 39319715,
+                    "uncompressed_size": 76744232,
+                    "contents": [
+                        "bin/ffmpeg",
+                        "bin/ffprobe",
+                        "lib/libavcodec.so",
+                        "lib/libavdevice.so",
+                        "lib/libavutil.so",
+                        "lib/libswresample.so",
+                        "lib/libavformat.so",
+                        "lib/libswscale.so",
+                        "lib/libavfilter.so"
+                    ]
                 }
             }
         },
