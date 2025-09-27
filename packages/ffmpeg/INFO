@@ -1,0 +1,7 @@
+VERSION=8.0
+DESCRIPTION=FFmpeg multimedia library
+HOMEPAGE=https://ffmpeg.org/
+MIN_API=21
+DEPENDENCIES=libc++ ocl-icd
+LICENSE=GPL-3.0
+CONFLICTS=
