@@ -1,147 +1,107 @@
 {
     "packages": {
-        "jq": {
-            "version": "1.8.1",
-            "min_api": "21",
+        "zstd": {
+            "version": "1.5.7",
+            "min_api": "24",
             "dependencies": [],
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/arm64-v8a/jq.tar.zst",
-                    "sha256": "01e52f444a1d065c8d103bc94edb4e89cdf78481448965655fb66ff2597c555b",
-                    "size": 379847,
-                    "uncompressed_size": 1063964,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/arm64-v8a/zstd.tar.zst",
+                    "sha256": "abeafe8fd08bb00df8f891d30a4f9f25c5a79c37bd3d13a161bf36ede1a0c047",
+                    "size": 377969,
+                    "uncompressed_size": 950928,
                     "contents": [
-                        "bin/jq",
-                        "bin/onig-config"
+                        "bin/zstd"
                     ]
                 },
                 "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/armeabi-v7a/jq.tar.zst",
-                    "sha256": "e2528bdf2cdedfd9ea703772c33f2b4e639a6fd7cf3da48ef682335ac5ea1ce5",
-                    "size": 372050,
-                    "uncompressed_size": 953958,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/armeabi-v7a/zstd.tar.zst",
+                    "sha256": "c79f8bea3118c2313e0ce77934c38822fe3d345bfc337cbbaeac4cf2676ce716",
+                    "size": 422677,
+                    "uncompressed_size": 958640,
                     "contents": [
-                        "bin/jq",
-                        "bin/onig-config"
+                        "bin/zstd"
                     ]
                 },
                 "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86/jq.tar.zst",
-                    "sha256": "494f35b8403982bdb46140d281db27d8f5c135f3854384340facc49eab3e01b5",
-                    "size": 388374,
-                    "uncompressed_size": 1087766,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86/zstd.tar.zst",
+                    "sha256": "8851282cf749ffa737eb67c2907e87a767fb1b0a6253f4ffbf02a2165aaf4532",
+                    "size": 470823,
+                    "uncompressed_size": 1180072,
                     "contents": [
-                        "bin/jq",
-                        "bin/onig-config"
+                        "bin/zstd"
                     ]
                 },
                 "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86_64/jq.tar.zst",
-                    "sha256": "8247587c5dc6c598825abcd92b0a7a2e47344b37f85047a1a64a1889b8e736de",
-                    "size": 404944,
-                    "uncompressed_size": 1114393,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86_64/zstd.tar.zst",
+                    "sha256": "30693a254aaebf7015abec92cb0bc93045bd0a50e6031d929884574b17a4b4c2",
+                    "size": 435339,
+                    "uncompressed_size": 1076176,
                     "contents": [
-                        "bin/jq",
-                        "bin/onig-config"
+                        "bin/zstd"
                     ]
                 },
                 "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/riscv64/jq.tar.zst",
-                    "sha256": "352389f0deec0a5a7fe1ab408346b5cd72f3d45986760781fb354e6af5051469",
-                    "size": 365906,
-                    "uncompressed_size": 931874,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/riscv64/zstd.tar.zst",
+                    "sha256": "b71730f3952223fdcbbbcbc5f6b3fb3f1c922249c36089677e824447bfa3cc37",
+                    "size": 371000,
+                    "uncompressed_size": 797208,
                     "contents": [
-                        "bin/jq",
-                        "bin/onig-config"
+                        "bin/zstd"
                     ]
                 }
             }
         },
-        "protoc": {
-            "version": "32.0",
-            "min_api": "21",
+        "file": {
+            "version": "5.46",
+            "min_api": "28",
             "dependencies": [],
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/arm64-v8a/protoc.tar.zst",
-                    "sha256": "74b970887a4a7ef85d10326cbc3ad32d1a05272753435be7d56d0a0e3fdab6bc",
-                    "size": 2714077,
-                    "uncompressed_size": 25893824,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/arm64-v8a/file.tar.zst",
+                    "sha256": "22346122b526aac150708b18fb2bbe20b0a14a472c1cbfb46c90cf2c2e4be3a7",
+                    "size": 64265,
+                    "uncompressed_size": 139368,
                     "contents": [
-                        "bin/protoc",
-                        "bin/protoc-32.0.0",
-                        "bin/protoc-gen-upb",
-                        "bin/protoc-gen-upb-32.0.0",
-                        "bin/protoc-gen-upb_minitable",
-                        "bin/protoc-gen-upb_minitable-32.0.0",
-                        "bin/protoc-gen-upbdefs",
-                        "bin/protoc-gen-upbdefs-32.0.0"
+                        "bin/file"
                     ]
                 },
                 "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/armeabi-v7a/protoc.tar.zst",
-                    "sha256": "4134b79fd4ab52de5e17d6f43ab72bec7802d05b59fd3d8f4c9efb554f9aaeb8",
-                    "size": 2135357,
-                    "uncompressed_size": 17230408,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/armeabi-v7a/file.tar.zst",
+                    "sha256": "864b836be81c2b55d6def6a7e6610e9e0aec4296f73cf19e9ceb0c02993c75b4",
+                    "size": 62668,
+                    "uncompressed_size": 130932,
                     "contents": [
-                        "bin/protoc",
-                        "bin/protoc-32.0.0",
-                        "bin/protoc-gen-upb",
-                        "bin/protoc-gen-upb-32.0.0",
-                        "bin/protoc-gen-upb_minitable",
-                        "bin/protoc-gen-upb_minitable-32.0.0",
-                        "bin/protoc-gen-upbdefs",
-                        "bin/protoc-gen-upbdefs-32.0.0"
+                        "bin/file"
                     ]
                 },
                 "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86/protoc.tar.zst",
-                    "sha256": "6d2bb156f0dc111357ff2e5df0c01100b09e6176dfa2e48568484389390300d1",
-                    "size": 3032565,
-                    "uncompressed_size": 27881528,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86/file.tar.zst",
+                    "sha256": "954bc1d90f49b6f7c3907222eef6b6ac835cebc15886d3a04d8ed43560ac60da",
+                    "size": 73276,
+                    "uncompressed_size": 158620,
                     "contents": [
-                        "bin/protoc",
-                        "bin/protoc-32.0.0",
-                        "bin/protoc-gen-upb",
-                        "bin/protoc-gen-upb-32.0.0",
-                        "bin/protoc-gen-upb_minitable",
-                        "bin/protoc-gen-upb_minitable-32.0.0",
-                        "bin/protoc-gen-upbdefs",
-                        "bin/protoc-gen-upbdefs-32.0.0"
+                        "bin/file"
                     ]
                 },
                 "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86_64/protoc.tar.zst",
-                    "sha256": "bb7286b01a6524b1274bd80f9c2309233d091dce9c7b12718294a4676fd62a8c",
-                    "size": 2783580,
-                    "uncompressed_size": 26157424,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86_64/file.tar.zst",
+                    "sha256": "4be086112e64c958262610ba845f4c09cb87261308af59caf42933ba89869b1c",
+                    "size": 65093,
+                    "uncompressed_size": 141784,
                     "contents": [
-                        "bin/protoc",
-                        "bin/protoc-32.0.0",
-                        "bin/protoc-gen-upb",
-                        "bin/protoc-gen-upb-32.0.0",
-                        "bin/protoc-gen-upb_minitable",
-                        "bin/protoc-gen-upb_minitable-32.0.0",
-                        "bin/protoc-gen-upbdefs",
-                        "bin/protoc-gen-upbdefs-32.0.0"
+                        "bin/file"
                     ]
                 },
                 "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/riscv64/protoc.tar.zst",
-                    "sha256": "58a2f769a46c271e0f42bd050a9aeeb2a9c88cdd08757e49f09fe903e6f5fcde",
-                    "size": 3238300,
-                    "uncompressed_size": 26673264,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/riscv64/file.tar.zst",
+                    "sha256": "f520bd1c73ffb7a5435e0a7b40b46d7f207ee2958e01611231f7d2ac95711c96",
+                    "size": 64845,
+                    "uncompressed_size": 126736,
                     "contents": [
-                        "bin/protoc",
-                        "bin/protoc-32.0.0",
-                        "bin/protoc-gen-upb",
-                        "bin/protoc-gen-upb-32.0.0",
-                        "bin/protoc-gen-upb_minitable",
-                        "bin/protoc-gen-upb_minitable-32.0.0",
-                        "bin/protoc-gen-upbdefs",
-                        "bin/protoc-gen-upbdefs-32.0.0"
+                        "bin/file"
                     ]
                 }
             }
@@ -214,308 +174,46 @@
                 }
             }
         },
-        "payload_dumper": {
-            "version": "a442ab4",
+        "abx2xml": {
+            "version": "0.1.0",
             "min_api": "21",
             "dependencies": [],
             "conflicts": [],
             "architectures": {
                 "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/arm64-v8a/payload_dumper.tar.zst",
-                    "sha256": "81847c10ba0ff373e3091ae5a9e070c60e76c9dcdeb5abd765fc11aa38a12884",
-                    "size": 1716694,
-                    "uncompressed_size": 3596256,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/arm64-v8a/abx2xml.tar.zst",
+                    "sha256": "76264cad5fb048fc9ff9773b2deb84c672d512e27d6de791a1d635af0ea1282e",
+                    "size": 340274,
+                    "uncompressed_size": 756672,
                     "contents": [
-                        "bin/payload_dumper"
+                        "bin/abx2xml"
                     ]
                 },
                 "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/armeabi-v7a/payload_dumper.tar.zst",
-                    "sha256": "bf1798c77b5f719a7f6d733f4e9c96d6e7d090b3c4a34568292b26797cd6b50c",
-                    "size": 1427053,
-                    "uncompressed_size": 2596696,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/armeabi-v7a/abx2xml.tar.zst",
+                    "sha256": "c0403e7c550ece0647dacad58e83e7eae3b54fa34c6f4367aed31496accaa5e1",
+                    "size": 294498,
+                    "uncompressed_size": 488496,
                     "contents": [
-                        "bin/payload_dumper"
+                        "bin/abx2xml"
                     ]
                 },
                 "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86/payload_dumper.tar.zst",
-                    "sha256": "9b027e636d080ca24aff622b6bfc9208b35a5f752ea899729210e8c3aa0c10d8",
-                    "size": 1699555,
-                    "uncompressed_size": 4006420,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86/abx2xml.tar.zst",
+                    "sha256": "4d8e17d228c4417226ea4a371115b892ec84a6a3065bc856dc4e685d6b18ca7d",
+                    "size": 363437,
+                    "uncompressed_size": 810176,
                     "contents": [
-                        "bin/payload_dumper"
+                        "bin/abx2xml"
                     ]
                 },
                 "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86_64/payload_dumper.tar.zst",
-                    "sha256": "d4810788aa320d4445e9c6223e28494a6e3a09b579e91e23c853acd7e0de7bea",
-                    "size": 1797323,
-                    "uncompressed_size": 4214744,
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86_64/abx2xml.tar.zst",
+                    "sha256": "83253ee44cd9c69ea225105cf38405450e54b07c56162e4d789cd3a8da8accdf",
+                    "size": 360530,
+                    "uncompressed_size": 853760,
                     "contents": [
-                        "bin/payload_dumper"
-                    ]
-                }
-            }
-        },
-        "bzip2": {
-            "version": "1.0.8",
-            "min_api": "21",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/arm64-v8a/bzip2.tar.zst",
-                    "sha256": "07158334a372f2a55549a2f772d2dffdfa89ccef3eef1f4e3159fda302d28f3f",
-                    "size": 164008,
-                    "uncompressed_size": 1227693,
-                    "contents": [
-                        "bin/bunzip2",
-                        "bin/bzcat",
-                        "bin/bzcmp",
-                        "bin/bzdiff",
-                        "bin/bzegrep",
-                        "bin/bzfgrep",
-                        "bin/bzgrep",
-                        "bin/bzip2",
-                        "bin/bzip2recover",
-                        "bin/bzless",
-                        "bin/bzmore"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/armeabi-v7a/bzip2.tar.zst",
-                    "sha256": "fe586885efb308ee144cf835c43fc11b59a089b8eb7b52b95a77a34813463616",
-                    "size": 125215,
-                    "uncompressed_size": 748365,
-                    "contents": [
-                        "bin/bunzip2",
-                        "bin/bzcat",
-                        "bin/bzcmp",
-                        "bin/bzdiff",
-                        "bin/bzegrep",
-                        "bin/bzfgrep",
-                        "bin/bzgrep",
-                        "bin/bzip2",
-                        "bin/bzip2recover",
-                        "bin/bzless",
-                        "bin/bzmore"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86/bzip2.tar.zst",
-                    "sha256": "89b2321c7ec1722e45bfac892366fa684491ea8327a426817a74e767a0a5b945",
-                    "size": 145677,
-                    "uncompressed_size": 1117165,
-                    "contents": [
-                        "bin/bunzip2",
-                        "bin/bzcat",
-                        "bin/bzcmp",
-                        "bin/bzdiff",
-                        "bin/bzegrep",
-                        "bin/bzfgrep",
-                        "bin/bzgrep",
-                        "bin/bzip2",
-                        "bin/bzip2recover",
-                        "bin/bzless",
-                        "bin/bzmore"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86_64/bzip2.tar.zst",
-                    "sha256": "e90c86f78e388a8cf36d66ea71182cfbc0312c1106ceeb08a8a84ff7706546c5",
-                    "size": 170941,
-                    "uncompressed_size": 1347757,
-                    "contents": [
-                        "bin/bunzip2",
-                        "bin/bzcat",
-                        "bin/bzcmp",
-                        "bin/bzdiff",
-                        "bin/bzegrep",
-                        "bin/bzfgrep",
-                        "bin/bzgrep",
-                        "bin/bzip2",
-                        "bin/bzip2recover",
-                        "bin/bzless",
-                        "bin/bzmore"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/riscv64/bzip2.tar.zst",
-                    "sha256": "1556df74fc9ed8021edf78ebbab013efc07206d674f4dcd3294de36d006debe5",
-                    "size": 143886,
-                    "uncompressed_size": 927821,
-                    "contents": [
-                        "bin/bunzip2",
-                        "bin/bzcat",
-                        "bin/bzcmp",
-                        "bin/bzdiff",
-                        "bin/bzegrep",
-                        "bin/bzfgrep",
-                        "bin/bzgrep",
-                        "bin/bzip2",
-                        "bin/bzip2recover",
-                        "bin/bzless",
-                        "bin/bzmore"
-                    ]
-                }
-            }
-        },
-        "zstd": {
-            "version": "1.5.7",
-            "min_api": "24",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/arm64-v8a/zstd.tar.zst",
-                    "sha256": "abeafe8fd08bb00df8f891d30a4f9f25c5a79c37bd3d13a161bf36ede1a0c047",
-                    "size": 377969,
-                    "uncompressed_size": 950928,
-                    "contents": [
-                        "bin/zstd"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/armeabi-v7a/zstd.tar.zst",
-                    "sha256": "c79f8bea3118c2313e0ce77934c38822fe3d345bfc337cbbaeac4cf2676ce716",
-                    "size": 422677,
-                    "uncompressed_size": 958640,
-                    "contents": [
-                        "bin/zstd"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86/zstd.tar.zst",
-                    "sha256": "8851282cf749ffa737eb67c2907e87a767fb1b0a6253f4ffbf02a2165aaf4532",
-                    "size": 470823,
-                    "uncompressed_size": 1180072,
-                    "contents": [
-                        "bin/zstd"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/x86_64/zstd.tar.zst",
-                    "sha256": "30693a254aaebf7015abec92cb0bc93045bd0a50e6031d929884574b17a4b4c2",
-                    "size": 435339,
-                    "uncompressed_size": 1076176,
-                    "contents": [
-                        "bin/zstd"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/zstd/riscv64/zstd.tar.zst",
-                    "sha256": "b71730f3952223fdcbbbcbc5f6b3fb3f1c922249c36089677e824447bfa3cc37",
-                    "size": 371000,
-                    "uncompressed_size": 797208,
-                    "contents": [
-                        "bin/zstd"
-                    ]
-                }
-            }
-        },
-        "nano": {
-            "version": "8.5",
-            "min_api": "28",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/arm64-v8a/nano.tar.zst",
-                    "sha256": "b752695af793f4bf7d8e34d60d08bcb4c853336274a51b692954a00515b6f725",
-                    "size": 424134,
-                    "uncompressed_size": 976648,
-                    "contents": [
-                        "bin/nano"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/armeabi-v7a/nano.tar.zst",
-                    "sha256": "9cc696761f5a2eac3a7b2acc479fbcca5daebec6c79edf9d4106c8625a3f2042",
-                    "size": 382428,
-                    "uncompressed_size": 771416,
-                    "contents": [
-                        "bin/nano"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86/nano.tar.zst",
-                    "sha256": "a2db120b7e10ec779d2ffbda7700ce7bda164901544ca8ce10984ae964f5b0bc",
-                    "size": 430088,
-                    "uncompressed_size": 990768,
-                    "contents": [
-                        "bin/nano"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86_64/nano.tar.zst",
-                    "sha256": "52b81c90c3bd610b388c9286f618bcd75bbe1c980ee62265c3184f8f9cb81b2b",
-                    "size": 420188,
-                    "uncompressed_size": 962016,
-                    "contents": [
-                        "bin/nano"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/riscv64/nano.tar.zst",
-                    "sha256": "0496142ee51c76c4c024894fcf9c5681ed7920def8ce5e7b8b11925f091d6c2f",
-                    "size": 406527,
-                    "uncompressed_size": 807088,
-                    "contents": [
-                        "bin/nano"
-                    ]
-                }
-            }
-        },
-        "tree": {
-            "version": "2.2.1",
-            "min_api": "26",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/arm64-v8a/tree.tar.zst",
-                    "sha256": "3a3ea55131894485e13b3a4400543ee51f717557a067827b69939daf6d36fb6c",
-                    "size": 152315,
-                    "uncompressed_size": 354680,
-                    "contents": [
-                        "bin/tree"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/armeabi-v7a/tree.tar.zst",
-                    "sha256": "0eabfd46d946e399e3c59b9c0275da0d950ee4e7590aef92f5ee8bf726d95a35",
-                    "size": 119618,
-                    "uncompressed_size": 218364,
-                    "contents": [
-                        "bin/tree"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86/tree.tar.zst",
-                    "sha256": "da82e0b43154386b73552ba3f8456b4e32ee13984e6df000aaa558e645b27aac",
-                    "size": 141580,
-                    "uncompressed_size": 335508,
-                    "contents": [
-                        "bin/tree"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86_64/tree.tar.zst",
-                    "sha256": "b2407445d457171a2a867a72fb3d85385a59968e81e7f8a6c9d1f1eda3db8ba9",
-                    "size": 160711,
-                    "uncompressed_size": 379856,
-                    "contents": [
-                        "bin/tree"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/riscv64/tree.tar.zst",
-                    "sha256": "318c3f5291c6a3d1607cf8cfd91797d090a376863a782217bdd629cd52972633",
-                    "size": 131096,
-                    "uncompressed_size": 268576,
-                    "contents": [
-                        "bin/tree"
+                        "bin/abx2xml"
                     ]
                 }
             }
@@ -683,59 +381,6 @@
                 }
             }
         },
-        "file": {
-            "version": "5.46",
-            "min_api": "28",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/arm64-v8a/file.tar.zst",
-                    "sha256": "22346122b526aac150708b18fb2bbe20b0a14a472c1cbfb46c90cf2c2e4be3a7",
-                    "size": 64265,
-                    "uncompressed_size": 139368,
-                    "contents": [
-                        "bin/file"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/armeabi-v7a/file.tar.zst",
-                    "sha256": "864b836be81c2b55d6def6a7e6610e9e0aec4296f73cf19e9ceb0c02993c75b4",
-                    "size": 62668,
-                    "uncompressed_size": 130932,
-                    "contents": [
-                        "bin/file"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86/file.tar.zst",
-                    "sha256": "954bc1d90f49b6f7c3907222eef6b6ac835cebc15886d3a04d8ed43560ac60da",
-                    "size": 73276,
-                    "uncompressed_size": 158620,
-                    "contents": [
-                        "bin/file"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/x86_64/file.tar.zst",
-                    "sha256": "4be086112e64c958262610ba845f4c09cb87261308af59caf42933ba89869b1c",
-                    "size": 65093,
-                    "uncompressed_size": 141784,
-                    "contents": [
-                        "bin/file"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/file/riscv64/file.tar.zst",
-                    "sha256": "f520bd1c73ffb7a5435e0a7b40b46d7f207ee2958e01611231f7d2ac95711c96",
-                    "size": 64845,
-                    "uncompressed_size": 126736,
-                    "contents": [
-                        "bin/file"
-                    ]
-                }
-            }
-        },
         "openssl": {
             "version": "3.5.2",
             "min_api": "",
@@ -785,103 +430,6 @@
                     "uncompressed_size": 4267080,
                     "contents": [
                         "bin/openssl"
-                    ]
-                }
-            }
-        },
-        "abx2xml": {
-            "version": "0.1.0",
-            "min_api": "21",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/arm64-v8a/abx2xml.tar.zst",
-                    "sha256": "76264cad5fb048fc9ff9773b2deb84c672d512e27d6de791a1d635af0ea1282e",
-                    "size": 340274,
-                    "uncompressed_size": 756672,
-                    "contents": [
-                        "bin/abx2xml"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/armeabi-v7a/abx2xml.tar.zst",
-                    "sha256": "c0403e7c550ece0647dacad58e83e7eae3b54fa34c6f4367aed31496accaa5e1",
-                    "size": 294498,
-                    "uncompressed_size": 488496,
-                    "contents": [
-                        "bin/abx2xml"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86/abx2xml.tar.zst",
-                    "sha256": "4d8e17d228c4417226ea4a371115b892ec84a6a3065bc856dc4e685d6b18ca7d",
-                    "size": 363437,
-                    "uncompressed_size": 810176,
-                    "contents": [
-                        "bin/abx2xml"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/abx2xml/x86_64/abx2xml.tar.zst",
-                    "sha256": "83253ee44cd9c69ea225105cf38405450e54b07c56162e4d789cd3a8da8accdf",
-                    "size": 360530,
-                    "uncompressed_size": 853760,
-                    "contents": [
-                        "bin/abx2xml"
-                    ]
-                }
-            }
-        },
-        "brotli": {
-            "version": "1.1.0",
-            "min_api": "21",
-            "dependencies": [],
-            "conflicts": [],
-            "architectures": {
-                "arm64-v8a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/arm64-v8a/brotli.tar.zst",
-                    "sha256": "bc6779e24499e255690c01b02544a8e227b0dd492230161b84e00f30db1cce9f",
-                    "size": 448839,
-                    "uncompressed_size": 1061536,
-                    "contents": [
-                        "bin/brotli"
-                    ]
-                },
-                "armeabi-v7a": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/armeabi-v7a/brotli.tar.zst",
-                    "sha256": "37ca63aa95e516298112aa1f9949eb69aaa6b506c9596f77d4a0d4206f72fea9",
-                    "size": 414115,
-                    "uncompressed_size": 857996,
-                    "contents": [
-                        "bin/brotli"
-                    ]
-                },
-                "x86": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86/brotli.tar.zst",
-                    "sha256": "ddee50c87c817eb71a29d6706b7ac2c3f5a17269285a6e2eb588fa86163f9b37",
-                    "size": 443884,
-                    "uncompressed_size": 1103268,
-                    "contents": [
-                        "bin/brotli"
-                    ]
-                },
-                "x86_64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86_64/brotli.tar.zst",
-                    "sha256": "d2adc14a4504efdbce850cb7e087381f2300a147fb0d31699bcbc1f656c3d8fc",
-                    "size": 474346,
-                    "uncompressed_size": 1151072,
-                    "contents": [
-                        "bin/brotli"
-                    ]
-                },
-                "riscv64": {
-                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/riscv64/brotli.tar.zst",
-                    "sha256": "d9dc027e05774b5f1ac00e3983b21699eb0d5482cda9a5365e5477aa2d78667b",
-                    "size": 432104,
-                    "uncompressed_size": 930088,
-                    "contents": [
-                        "bin/brotli"
                     ]
                 }
             }
@@ -939,6 +487,355 @@
                 }
             }
         },
+        "libc++": {
+            "version": "r29-beta4",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/libc++/arm64-v8a/libc++.tar.zst",
+                    "sha256": "0d990f36c588c92cf05f2bda96eeba3f3ab120f3e296cd33247a095e51e44b59",
+                    "size": 380052,
+                    "uncompressed_size": 1373744,
+                    "contents": [
+                        "lib/libc++_shared.so"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/libc++/armeabi-v7a/libc++.tar.zst",
+                    "sha256": "2f684d1f680813140c119eba7301c101dd8c91b208b04893f4ca7cf7a6e6a69d",
+                    "size": 354493,
+                    "uncompressed_size": 962460,
+                    "contents": [
+                        "lib/libc++_shared.so"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/libc++/x86/libc++.tar.zst",
+                    "sha256": "202bc0eebd16b18f7dcf825449778884c05167944872bc5aecd45a1f94f2ac58",
+                    "size": 401107,
+                    "uncompressed_size": 1255364,
+                    "contents": [
+                        "lib/libc++_shared.so"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/libc++/x86_64/libc++.tar.zst",
+                    "sha256": "8a24a0e19eb64e07d0f9f9f8e9ed23f78183e642db344bf45ebdb500ea7a697f",
+                    "size": 391343,
+                    "uncompressed_size": 1336896,
+                    "contents": [
+                        "lib/libc++_shared.so"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/libc++/riscv64/libc++.tar.zst",
+                    "sha256": "d33b28a245eda8b53b8af9bfea922b2f4738bc192490692af04b23bd8af50d12",
+                    "size": 371078,
+                    "uncompressed_size": 1173136,
+                    "contents": [
+                        "lib/libc++_shared.so"
+                    ]
+                }
+            }
+        },
+        "payload_dumper": {
+            "version": "a442ab4",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/arm64-v8a/payload_dumper.tar.zst",
+                    "sha256": "81847c10ba0ff373e3091ae5a9e070c60e76c9dcdeb5abd765fc11aa38a12884",
+                    "size": 1716694,
+                    "uncompressed_size": 3596256,
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/armeabi-v7a/payload_dumper.tar.zst",
+                    "sha256": "bf1798c77b5f719a7f6d733f4e9c96d6e7d090b3c4a34568292b26797cd6b50c",
+                    "size": 1427053,
+                    "uncompressed_size": 2596696,
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86/payload_dumper.tar.zst",
+                    "sha256": "9b027e636d080ca24aff622b6bfc9208b35a5f752ea899729210e8c3aa0c10d8",
+                    "size": 1699555,
+                    "uncompressed_size": 4006420,
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/payload_dumper/x86_64/payload_dumper.tar.zst",
+                    "sha256": "d4810788aa320d4445e9c6223e28494a6e3a09b579e91e23c853acd7e0de7bea",
+                    "size": 1797323,
+                    "uncompressed_size": 4214744,
+                    "contents": [
+                        "bin/payload_dumper"
+                    ]
+                }
+            }
+        },
+        "jq": {
+            "version": "1.8.1",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/arm64-v8a/jq.tar.zst",
+                    "sha256": "01e52f444a1d065c8d103bc94edb4e89cdf78481448965655fb66ff2597c555b",
+                    "size": 379847,
+                    "uncompressed_size": 1063964,
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/armeabi-v7a/jq.tar.zst",
+                    "sha256": "e2528bdf2cdedfd9ea703772c33f2b4e639a6fd7cf3da48ef682335ac5ea1ce5",
+                    "size": 372050,
+                    "uncompressed_size": 953958,
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86/jq.tar.zst",
+                    "sha256": "494f35b8403982bdb46140d281db27d8f5c135f3854384340facc49eab3e01b5",
+                    "size": 388374,
+                    "uncompressed_size": 1087766,
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/x86_64/jq.tar.zst",
+                    "sha256": "8247587c5dc6c598825abcd92b0a7a2e47344b37f85047a1a64a1889b8e736de",
+                    "size": 404944,
+                    "uncompressed_size": 1114393,
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/jq/riscv64/jq.tar.zst",
+                    "sha256": "352389f0deec0a5a7fe1ab408346b5cd72f3d45986760781fb354e6af5051469",
+                    "size": 365906,
+                    "uncompressed_size": 931874,
+                    "contents": [
+                        "bin/jq",
+                        "bin/onig-config"
+                    ]
+                }
+            }
+        },
+        "protoc": {
+            "version": "32.0",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/arm64-v8a/protoc.tar.zst",
+                    "sha256": "74b970887a4a7ef85d10326cbc3ad32d1a05272753435be7d56d0a0e3fdab6bc",
+                    "size": 2714077,
+                    "uncompressed_size": 25893824,
+                    "contents": [
+                        "bin/protoc",
+                        "bin/protoc-32.0.0",
+                        "bin/protoc-gen-upb",
+                        "bin/protoc-gen-upb-32.0.0",
+                        "bin/protoc-gen-upb_minitable",
+                        "bin/protoc-gen-upb_minitable-32.0.0",
+                        "bin/protoc-gen-upbdefs",
+                        "bin/protoc-gen-upbdefs-32.0.0"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/armeabi-v7a/protoc.tar.zst",
+                    "sha256": "4134b79fd4ab52de5e17d6f43ab72bec7802d05b59fd3d8f4c9efb554f9aaeb8",
+                    "size": 2135357,
+                    "uncompressed_size": 17230408,
+                    "contents": [
+                        "bin/protoc",
+                        "bin/protoc-32.0.0",
+                        "bin/protoc-gen-upb",
+                        "bin/protoc-gen-upb-32.0.0",
+                        "bin/protoc-gen-upb_minitable",
+                        "bin/protoc-gen-upb_minitable-32.0.0",
+                        "bin/protoc-gen-upbdefs",
+                        "bin/protoc-gen-upbdefs-32.0.0"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86/protoc.tar.zst",
+                    "sha256": "6d2bb156f0dc111357ff2e5df0c01100b09e6176dfa2e48568484389390300d1",
+                    "size": 3032565,
+                    "uncompressed_size": 27881528,
+                    "contents": [
+                        "bin/protoc",
+                        "bin/protoc-32.0.0",
+                        "bin/protoc-gen-upb",
+                        "bin/protoc-gen-upb-32.0.0",
+                        "bin/protoc-gen-upb_minitable",
+                        "bin/protoc-gen-upb_minitable-32.0.0",
+                        "bin/protoc-gen-upbdefs",
+                        "bin/protoc-gen-upbdefs-32.0.0"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/x86_64/protoc.tar.zst",
+                    "sha256": "bb7286b01a6524b1274bd80f9c2309233d091dce9c7b12718294a4676fd62a8c",
+                    "size": 2783580,
+                    "uncompressed_size": 26157424,
+                    "contents": [
+                        "bin/protoc",
+                        "bin/protoc-32.0.0",
+                        "bin/protoc-gen-upb",
+                        "bin/protoc-gen-upb-32.0.0",
+                        "bin/protoc-gen-upb_minitable",
+                        "bin/protoc-gen-upb_minitable-32.0.0",
+                        "bin/protoc-gen-upbdefs",
+                        "bin/protoc-gen-upbdefs-32.0.0"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/protoc/riscv64/protoc.tar.zst",
+                    "sha256": "58a2f769a46c271e0f42bd050a9aeeb2a9c88cdd08757e49f09fe903e6f5fcde",
+                    "size": 3238300,
+                    "uncompressed_size": 26673264,
+                    "contents": [
+                        "bin/protoc",
+                        "bin/protoc-32.0.0",
+                        "bin/protoc-gen-upb",
+                        "bin/protoc-gen-upb-32.0.0",
+                        "bin/protoc-gen-upb_minitable",
+                        "bin/protoc-gen-upb_minitable-32.0.0",
+                        "bin/protoc-gen-upbdefs",
+                        "bin/protoc-gen-upbdefs-32.0.0"
+                    ]
+                }
+            }
+        },
+        "nano": {
+            "version": "8.5",
+            "min_api": "28",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/arm64-v8a/nano.tar.zst",
+                    "sha256": "b752695af793f4bf7d8e34d60d08bcb4c853336274a51b692954a00515b6f725",
+                    "size": 424134,
+                    "uncompressed_size": 976648,
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/armeabi-v7a/nano.tar.zst",
+                    "sha256": "9cc696761f5a2eac3a7b2acc479fbcca5daebec6c79edf9d4106c8625a3f2042",
+                    "size": 382428,
+                    "uncompressed_size": 771416,
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86/nano.tar.zst",
+                    "sha256": "a2db120b7e10ec779d2ffbda7700ce7bda164901544ca8ce10984ae964f5b0bc",
+                    "size": 430088,
+                    "uncompressed_size": 990768,
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/x86_64/nano.tar.zst",
+                    "sha256": "52b81c90c3bd610b388c9286f618bcd75bbe1c980ee62265c3184f8f9cb81b2b",
+                    "size": 420188,
+                    "uncompressed_size": 962016,
+                    "contents": [
+                        "bin/nano"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/nano/riscv64/nano.tar.zst",
+                    "sha256": "0496142ee51c76c4c024894fcf9c5681ed7920def8ce5e7b8b11925f091d6c2f",
+                    "size": 406527,
+                    "uncompressed_size": 807088,
+                    "contents": [
+                        "bin/nano"
+                    ]
+                }
+            }
+        },
+        "tree": {
+            "version": "2.2.1",
+            "min_api": "26",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/arm64-v8a/tree.tar.zst",
+                    "sha256": "3a3ea55131894485e13b3a4400543ee51f717557a067827b69939daf6d36fb6c",
+                    "size": 152315,
+                    "uncompressed_size": 354680,
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/armeabi-v7a/tree.tar.zst",
+                    "sha256": "0eabfd46d946e399e3c59b9c0275da0d950ee4e7590aef92f5ee8bf726d95a35",
+                    "size": 119618,
+                    "uncompressed_size": 218364,
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86/tree.tar.zst",
+                    "sha256": "da82e0b43154386b73552ba3f8456b4e32ee13984e6df000aaa558e645b27aac",
+                    "size": 141580,
+                    "uncompressed_size": 335508,
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/x86_64/tree.tar.zst",
+                    "sha256": "b2407445d457171a2a867a72fb3d85385a59968e81e7f8a6c9d1f1eda3db8ba9",
+                    "size": 160711,
+                    "uncompressed_size": 379856,
+                    "contents": [
+                        "bin/tree"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/tree/riscv64/tree.tar.zst",
+                    "sha256": "318c3f5291c6a3d1607cf8cfd91797d090a376863a782217bdd629cd52972633",
+                    "size": 131096,
+                    "uncompressed_size": 268576,
+                    "contents": [
+                        "bin/tree"
+                    ]
+                }
+            }
+        },
         "sqlite3": {
             "version": "3500400",
             "min_api": "21",
@@ -988,6 +885,162 @@
                     "uncompressed_size": 1527896,
                     "contents": [
                         "bin/sqlite3"
+                    ]
+                }
+            }
+        },
+        "brotli": {
+            "version": "1.1.0",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/arm64-v8a/brotli.tar.zst",
+                    "sha256": "bc6779e24499e255690c01b02544a8e227b0dd492230161b84e00f30db1cce9f",
+                    "size": 448839,
+                    "uncompressed_size": 1061536,
+                    "contents": [
+                        "bin/brotli"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/armeabi-v7a/brotli.tar.zst",
+                    "sha256": "37ca63aa95e516298112aa1f9949eb69aaa6b506c9596f77d4a0d4206f72fea9",
+                    "size": 414115,
+                    "uncompressed_size": 857996,
+                    "contents": [
+                        "bin/brotli"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86/brotli.tar.zst",
+                    "sha256": "ddee50c87c817eb71a29d6706b7ac2c3f5a17269285a6e2eb588fa86163f9b37",
+                    "size": 443884,
+                    "uncompressed_size": 1103268,
+                    "contents": [
+                        "bin/brotli"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/x86_64/brotli.tar.zst",
+                    "sha256": "d2adc14a4504efdbce850cb7e087381f2300a147fb0d31699bcbc1f656c3d8fc",
+                    "size": 474346,
+                    "uncompressed_size": 1151072,
+                    "contents": [
+                        "bin/brotli"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/brotli/riscv64/brotli.tar.zst",
+                    "sha256": "d9dc027e05774b5f1ac00e3983b21699eb0d5482cda9a5365e5477aa2d78667b",
+                    "size": 432104,
+                    "uncompressed_size": 930088,
+                    "contents": [
+                        "bin/brotli"
+                    ]
+                }
+            }
+        },
+        "bzip2": {
+            "version": "1.0.8",
+            "min_api": "21",
+            "dependencies": [],
+            "conflicts": [],
+            "architectures": {
+                "arm64-v8a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/arm64-v8a/bzip2.tar.zst",
+                    "sha256": "07158334a372f2a55549a2f772d2dffdfa89ccef3eef1f4e3159fda302d28f3f",
+                    "size": 164008,
+                    "uncompressed_size": 1227693,
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "armeabi-v7a": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/armeabi-v7a/bzip2.tar.zst",
+                    "sha256": "fe586885efb308ee144cf835c43fc11b59a089b8eb7b52b95a77a34813463616",
+                    "size": 125215,
+                    "uncompressed_size": 748365,
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "x86": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86/bzip2.tar.zst",
+                    "sha256": "89b2321c7ec1722e45bfac892366fa684491ea8327a426817a74e767a0a5b945",
+                    "size": 145677,
+                    "uncompressed_size": 1117165,
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "x86_64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/x86_64/bzip2.tar.zst",
+                    "sha256": "e90c86f78e388a8cf36d66ea71182cfbc0312c1106ceeb08a8a84ff7706546c5",
+                    "size": 170941,
+                    "uncompressed_size": 1347757,
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
+                    ]
+                },
+                "riscv64": {
+                    "url": "https://raw.githubusercontent.com/andstore-org/andstore-repo/main/packages/bzip2/riscv64/bzip2.tar.zst",
+                    "sha256": "1556df74fc9ed8021edf78ebbab013efc07206d674f4dcd3294de36d006debe5",
+                    "size": 143886,
+                    "uncompressed_size": 927821,
+                    "contents": [
+                        "bin/bunzip2",
+                        "bin/bzcat",
+                        "bin/bzcmp",
+                        "bin/bzdiff",
+                        "bin/bzegrep",
+                        "bin/bzfgrep",
+                        "bin/bzgrep",
+                        "bin/bzip2",
+                        "bin/bzip2recover",
+                        "bin/bzless",
+                        "bin/bzmore"
                     ]
                 }
             }
