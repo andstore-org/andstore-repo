@@ -1,1 +1,7 @@
-.
+VERSION=r29-beta4
+DESCRIPTION=shared library implementation of the C++ standard library
+HOMEPAGE=https://libcxx.llvm.org/
+MIN_API=21
+DEPENDENCIES=
+LICENSE=Apache License 2.0 with LLVM Exceptions
+CONFLICTS=
