@@ -1,0 +1,7 @@
+VERSION=0.1.3
+DESCRIPTION=Rust Library to encode human readable xml into android binary xml
+HOMEPAGE=https://github.com/rhythmcache/xml2abx-rs
+MIN_API=21
+DEPENDENCIES=
+LICENSE=Apache 2
+CONFLICTS=
