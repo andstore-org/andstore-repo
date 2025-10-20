@@ -70,7 +70,7 @@ for arch in arm64-v8a armeabi-v7a x86 x86_64; do
 done
 
 cat > "$SCRIPT_DIR/INFO" <<EOF
-VERSION=0.1.0
+VERSION=0.1.2
 DESCRIPTION=Rust Library to decode android binary xml
 HOMEPAGE=https://github.com/rhythmcache/abx2xml-rs
 MIN_API=21
